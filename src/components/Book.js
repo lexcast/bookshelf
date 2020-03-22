@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Barcode from "react-barcode";
 
 const Book = ({ book, isbn }) => {
   const [state, setState] = useState("front");
@@ -129,7 +130,7 @@ const Book = ({ book, isbn }) => {
         </div>
       </div>
       <div
-        className="bk-back text-justify p-10 absolute block text-xs shadow-lg overflow-hidden"
+        className="bk-back text-justify p-10 absolute block shadow-lg overflow-hidden"
         style={{
           fontSize: ".4rem",
           width,
@@ -140,7 +141,17 @@ const Book = ({ book, isbn }) => {
           borderRadius: "3px 0 0 3px"
         }}
       >
+        <h1 className="text-xs font-bold text-center">{book.title}</h1>
+        <h2 className="text-xs text-center">{book.author}</h2>
         <p>{book.sinopsis}</p>
+        <div
+          className="absolute bottom-0 right-0 m-8"
+          style={{
+            transform: "scale(.8)"
+          }}
+        >
+          <Barcode value={`0${isbn}0`} format="EAN13" width={1} height={25} />
+        </div>
         <div
           className="after absolute top-0 bottom-0 left-auto"
           style={{
