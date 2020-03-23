@@ -27,7 +27,7 @@ const Left = ({ book }) => {
           transform: "rotate(90deg)"
         }}
       >
-        <span>{book.author}</span>
+        <span className="uppercase font-sans">{book.author}</span>
         <span className="font-semibold ml-2">{book.title}</span>
       </div>
     </div>
