@@ -27,7 +27,7 @@ const Front = ({ book, state }) => {
           height,
           backgroundColor,
           color: book.text,
-          transform: "rotate3d(0,1,0,-179deg)",
+          transform: "rotate3d(0,1,0,-180deg)",
           borderRadius: "3px 0 0 3px",
           boxShadow: "inset 4px 0 10px rgba(0, 0, 0, 0.1)"
         }}
