@@ -21,7 +21,7 @@ const Front = ({ book, state }) => {
       }}
     >
       <div
-        className="p-10 absolute block backface-hidden preserve-3d z-10"
+        className="p-10 flex items-center justify-start flex-col absolute block backface-hidden preserve-3d z-10"
         style={{
           width,
           height,
@@ -32,11 +32,14 @@ const Front = ({ book, state }) => {
           boxShadow: "inset 4px 0 10px rgba(0, 0, 0, 0.1)"
         }}
       >
-        <img
-          className="mb-4 border-4 border-white"
-          src={`/images/authors/${book.author_photo}`}
-        />
-        {book.author}
+        <div className="flex-1">
+          <img
+            className="w-32 mb-4 border-4 border-white"
+            src={`/images/authors/${book.author_photo}`}
+          />
+          <h1>{book.author}</h1>
+        </div>
+        <h3 className="text-xs font-thin">{book.publisher}</h3>
       </div>
       <div
         className="absolute block backface-hidden preserve-3d z-10"
