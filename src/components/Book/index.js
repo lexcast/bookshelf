@@ -16,7 +16,13 @@ const Book = props => {
     <div
       onClick={() => {
         setState(
-          state === "front" ? "inside" : state === "inside" ? "back" : "front"
+          state === "front"
+            ? "inside"
+            : state === "inside"
+            ? "side"
+            : state === "side"
+            ? "back"
+            : "front"
         );
       }}
       className="absolute preserve-3d t-transform"
@@ -26,6 +32,8 @@ const Book = props => {
         transform:
           state === "inside"
             ? "translate3d(0,0,150px) rotate3d(0,1,0,0deg)"
+            : state === "side"
+            ? "translate3d(0,0,0px) rotate3d(0,1,0,90deg)"
             : state === "back"
             ? "translate3d(0,0,0px) rotate3d(0,1,0,180deg)"
             : ""
