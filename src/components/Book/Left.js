@@ -1,7 +1,6 @@
 import React from "react";
 
 const Left = ({ book }) => {
-  const width = `${book.w}px`;
   const height = `${book.h}px`;
   const depth = `${book.pages / 10}px`;
   const halfDepth = `${book.pages / 10 / 2}px`;

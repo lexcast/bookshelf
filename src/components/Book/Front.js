@@ -36,6 +36,7 @@ const Front = ({ book, state }) => {
           <img
             className="w-32 mb-4 border-4 border-white"
             src={`/images/authors/${book.author_photo}`}
+            alt={book.author}
           />
           <h1>{book.author}</h1>
         </div>
@@ -59,6 +60,7 @@ const Front = ({ book, state }) => {
             borderRadius: "0 3px 3px 0"
           }}
           src={`/images/covers/${book.cover}`}
+          alt={book.title}
         />
         <div
           className="after absolute top-0 bottom-0"
