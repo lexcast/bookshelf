@@ -8,21 +8,21 @@ import Left from "./Left";
 import Right from "./Right";
 
 const Book = props => {
-  const [state, setState] = useState("front");
-  const width = `${props.book.w}px`;
+  const [state, setState] = useState("side");
+  const width = `${props.book.pages / 10}px`;
   const height = `${props.book.h}px`;
 
   return (
     <div
       onClick={() => {
         setState(
-          state === "front"
+          state === "side"
+            ? "front"
+            : state === "front"
             ? "inside"
             : state === "inside"
-            ? "side"
-            : state === "side"
             ? "back"
-            : "front"
+            : "side"
         );
       }}
       className="absolute preserve-3d t-transform"

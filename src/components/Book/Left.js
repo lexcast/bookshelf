@@ -18,12 +18,12 @@ const Left = ({ book }) => {
       }}
     >
       <div
-        className="text-xs flex items-center"
+        className="text-xs flex items-center pl-10"
         style={{
           width: height,
           height: depth,
           color: book.text,
-          transformOrigin: "0 100%",
+          transformOrigin: halfDepth,
           transform: "rotate(90deg)"
         }}
       >
