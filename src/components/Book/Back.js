@@ -11,7 +11,7 @@ const Back = ({ book, isbn }) => {
     <div
       className="text-justify p-10 absolute block shadow-lg overflow-hidden"
       style={{
-        fontSize: ".4rem",
+        fontSize: ".6rem",
         width,
         height,
         backgroundColor,
@@ -21,12 +21,12 @@ const Back = ({ book, isbn }) => {
       }}
     >
       <h1 className="text-xs font-bold text-center">{book.title}</h1>
-      <h2 className="text-xs text-center">{book.author}</h2>
+      <h2 className="text-xs text-center mb-2">{book.author}</h2>
       <p>{book.sinopsis}</p>
       <div
-        className="absolute bottom-0 right-0 m-8"
+        className="absolute bottom-0 right-0 mr-8 mb-3"
         style={{
-          transform: "scale(.8)"
+          transform: "scale(.7)"
         }}
       >
         <Barcode value={`0${isbn}0`} format="EAN13" width={1} height={25} />

@@ -15,5 +15,5 @@
 }
 
 .drop-cap:first-letter {
-  @apply float-left text-6xl leading-none;
+  @apply float-left text-3xl leading-none align-middle mt-1 mr-1 font-bold;
 }

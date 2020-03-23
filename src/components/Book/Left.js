@@ -15,22 +15,22 @@ const Left = ({ book }) => {
         width: depth,
         height,
         left: `-${halfDepth}`,
-        transform: "rotate3d(0,1,0,-90deg)"
+        transform: "rotateY(90deg) rotateX(-180deg)"
       }}
     >
-      <h2
-        className="text-xs"
+      <div
+        className="text-xs flex items-center"
         style={{
-          width,
+          width: height,
           height: depth,
           color: book.text,
-          transformOrigin: "0 0",
-          transform: "rotate(90deg) translateY(-40px)"
+          transformOrigin: "0 100%",
+          transform: "rotate(90deg)"
         }}
       >
         <span>{book.author}</span>
-        <span>{book.title}</span>
-      </h2>
+        <span className="font-semibold ml-2">{book.title}</span>
+      </div>
     </div>
   );
 };

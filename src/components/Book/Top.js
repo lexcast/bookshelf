@@ -7,7 +7,7 @@ const Book = ({ book }) => {
 
   return (
     <div
-      className="bk-top absolute block backface-hidden bg-paper"
+      className="absolute block backface-hidden bg-paper"
       style={{
         width,
         height,
