@@ -1,17 +1,17 @@
 {
-  "9706668462": {
-    "title": "1984 * Rebelion En La Granja",
-    "author": "George Orwell",
-    "author_photo": "orwell.jpg",
-    "publisher": "Grupo Editorial Tomo",
-    "cover": "9706668462.png",
-    "pages": "364",
+  "8478889922": {
+    "title": "Harry Potter y el misterio del príncipe",
+    "author": "J. K. Rowling",
+    "author_photo": "rowling.jpg",
+    "publisher": "Salamandra",
+    "cover": "8478889922.jpg",
+    "pages": "606",
     "w": 306,
-    "h": 439,
-    "bg": "#543c84",
+    "h": 500,
+    "bg": "#373648",
     "text": "#fff",
-    "excerpt": "Quien controla el presente controla el pasado y quien controla el pasado controlará el futuro.",
-    "sinopsis": "1984 se desarrolla en el superestado de Oceanía, el cual está gobernado por el Ingsoc. Casi toda la población ha perdido los sentimientos y valores tradicionales, la gente ya no se estremece al ver ahorcar a un hombre, es más, lo disfrutan. Los niños son educados con el odio para que sientan odio. El Partido sabe que eliminando los sentimientos de afecto entre las personas elimina la posibilidad de rebelión y asociación de masas para derrocarlo del poder. Así, consigue que todo el amor generado en una persona vaya dirigido hacia el Gran hermano y hacia el Partido en sí mismo. No cabe pues pensar de otra forma que la impuesta por el Partido, es más, no hay otra forma de pensar que la del Partido. Por su parte, en Rebelión en la Granja, los animales molestos con su tipo de vida y planean una rebelión encabezada por los cerdos. La revolución en un éxito y tiene planes futuros: aprender a leer, estudiar y construir un molino diseñado por un cerdo llamado Bola de nieve que era enemigo de otro llamado Napoleón."
+    "excerpt": "El problema, primer ministro, es que los del otro bando también saben hacer magia.",
+    "sinopsis": "Con dieciséis años cumplidos, Harry inicia el sexto curso en Hogwarts en medio de terribles acontecimientos que asolan Inglaterra. Elegido capitán de quidditch, los entrenamientos, los exámenes y las chicas ocupan todo su tiempo, pero la tranquilidad dura poco. A pesar de los férreos controles de seguridad que protegen la escuela, dos alumnos son brutalmente atacados. Dumbledore sabe que se acerca el momento, anunciado por la Profecía, en que Harry y Voldemort se enfrentarán a muerte: \"El único con poder para vencer al Señor Tenebroso se acerca... Uno de los dos debe morir a manos del otro, pues ninguno de los dos podrá vivir mientras siga el otro con vida\". El anciano director solicitará la ayuda de Harry y juntos emprenderán peligrosos viajes para intentar debilitar al enemigo, para lo cual el joven mago, contará con la ayuda de un viejo libro de pociones perteneciente a un misterioso príncipe, alguien que se hace llamar Príncipe Mestizo."
   },
   "8496284328": {
     "title": "Eragon",
@@ -68,5 +68,19 @@
     "text": "#fff",
     "excerpt": "El cambio nunca es bueno ni malo, pero el conocimiento siempre es positivo.",
     "sinopsis": "No hace tanto tiempo, Eragon no era más que un pobre muchacho que vivía en una granja y su dragona, Saphira, una piedra azul oculta en el bosque. Ahora, el destino de una civilización recae sobre sus hombros.Los largos meses de entrenamiento y batallas les han traído victorias y esperanza pero también pérdidas terribles. Pero la verdadera batalla aún no ha llegado: deberán enfrentarse con Galbatorix. Cuando finalmente lo hagan, tendrán que ser lo suficientemente fuertes como para vencerle porque si ellos no lo hacen, nadie podrá. No habrá una segunda oportunidad. El Jinete y su dragona han llegado mucho más lejos de lo que nadie e atrevía ni siquiera a imaginar, pero ¿pueden derrocar al malvado Rey y devolver la justicia a Alagaësia? Y si así es ¿cuál será el precio que tendrán que pagar?"
+  },
+  "9706668462": {
+    "title": "1984 * Rebelion En La Granja",
+    "author": "George Orwell",
+    "author_photo": "orwell.jpg",
+    "publisher": "Grupo Editorial Tomo",
+    "cover": "9706668462.png",
+    "pages": "364",
+    "w": 306,
+    "h": 439,
+    "bg": "#543c84",
+    "text": "#fff",
+    "excerpt": "Quien controla el presente controla el pasado y quien controla el pasado controlará el futuro.",
+    "sinopsis": "1984 se desarrolla en el superestado de Oceanía, el cual está gobernado por el Ingsoc. Casi toda la población ha perdido los sentimientos y valores tradicionales, la gente ya no se estremece al ver ahorcar a un hombre, es más, lo disfrutan. Los niños son educados con el odio para que sientan odio. El Partido sabe que eliminando los sentimientos de afecto entre las personas elimina la posibilidad de rebelión y asociación de masas para derrocarlo del poder. Así, consigue que todo el amor generado en una persona vaya dirigido hacia el Gran hermano y hacia el Partido en sí mismo. No cabe pues pensar de otra forma que la impuesta por el Partido, es más, no hay otra forma de pensar que la del Partido. Por su parte, en Rebelión en la Granja, los animales molestos con su tipo de vida y planean una rebelión encabezada por los cerdos. La revolución en un éxito y tiene planes futuros: aprender a leer, estudiar y construir un molino diseñado por un cerdo llamado Bola de nieve que era enemigo de otro llamado Napoleón."
   }
 }
