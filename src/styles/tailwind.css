@@ -39,10 +39,47 @@ body {
   transform-style: preserve-3d;
 }
 
+.t-transform-wait {
+  transition: transform 0.5s 0.5s;
+}
+
 .t-transform {
   transition: transform 0.5s;
 }
 
 .drop-cap:first-letter {
   @apply float-left text-3xl leading-none align-middle mt-1 mr-1 font-bold;
+}
+
+.hover-pull:hover {
+  transform: rotateX(-15deg);
+  transform-origin: bottom;
+}
+
+.bg-wood {
+  background: rgb(233, 223, 196);
+  background: rgb(139, 121, 73);
+  background: linear-gradient(
+    to left,
+    rgba(139, 121, 73, 1) 0%,
+    rgba(139, 121, 73, 1) 1%,
+    rgba(144, 125, 77, 1) 2%,
+    rgba(144, 125, 77, 1) 24%,
+    rgba(141, 119, 72, 1) 25%,
+    rgba(139, 121, 73, 1) 48%,
+    rgba(141, 119, 72, 1) 49%,
+    rgba(136, 115, 66, 1) 52%,
+    rgba(136, 115, 66, 1) 53%,
+    rgba(139, 117, 69, 1) 54%,
+    rgba(136, 115, 66, 1) 55%,
+    rgba(136, 115, 66, 1) 56%,
+    rgba(139, 117, 69, 1) 57%,
+    rgba(136, 115, 66, 1) 58%,
+    rgba(136, 115, 66, 1) 73%,
+    rgba(139, 117, 69, 1) 74%,
+    rgba(139, 117, 69, 1) 98%,
+    rgba(141, 119, 72, 1) 100%
+  );
+  background-size: 120px;
+  background-repeat: repeat;
 }

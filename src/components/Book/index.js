@@ -14,38 +14,52 @@ const Book = props => {
 
   return (
     <div
-      onClick={() => {
-        setState(
-          state === "side"
-            ? "front"
-            : state === "front"
-            ? "inside"
-            : state === "inside"
-            ? "back"
-            : "side"
-        );
-      }}
-      className="absolute preserve-3d t-transform"
+      className={
+        "t-transform preserve-3d" + (props.selected ? "" : " hover-pull")
+      }
       style={{
         width,
         height,
-        transform:
-          state === "inside"
-            ? "translate3d(0,0,150px) rotate3d(0,1,0,0deg)"
-            : state === "side"
-            ? "translate3d(0,0,0px) rotate3d(0,1,0,90deg)"
-            : state === "back"
-            ? "translate3d(0,0,0px) rotate3d(0,1,0,180deg)"
-            : ""
+        transform: props.selected ? "translateZ(350px)" : ""
       }}
     >
-      <Front {...{ ...props, state }} />
-      <Page {...props} />
-      <Back {...props} />
-      <Left {...props} />
-      <Right {...props} />
-      <Top {...props} />
-      <Bottom {...props} />
+      <div
+        onClick={() => {
+          setState(
+            state === "side"
+              ? "front"
+              : state === "front"
+              ? "inside"
+              : state === "inside"
+              ? "back"
+              : "side"
+          );
+        }}
+        className={
+          "absolute preserve-3d " +
+          (state === "front" ? "t-transform-wait" : "t-transform")
+        }
+        style={{
+          width,
+          height,
+          transform:
+            state === "inside"
+              ? "rotate3d(0,1,0,0deg)"
+              : state === "side"
+              ? "rotate3d(0,1,0,90deg)"
+              : state === "back"
+              ? "rotate3d(0,1,0,180deg)"
+              : ""
+        }}
+      >
+        <Front {...{ ...props, state }} />
+        <Page {...props} />
+        <Back {...props} />
+        <Left {...props} />
+        <Right {...props} />
+        <Top {...props} />
+        <Bottom {...props} />
+      </div>
     </div>
   );
 };

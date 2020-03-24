@@ -1,27 +1,47 @@
-import React from "react";
+import React, { useState } from "react";
 import Book from "./Book";
 import books from "data";
 
 const App = () => {
+  const [selected, setSelected] = useState();
+
   return (
     <div className="relative font-serif">
       <div
-        className="relative preserve-3d w-full p-20 flex justify-center items-baseline"
+        className="relative m-auto flex flex-col preserve-3d p-2"
         style={{ perspective: "1800px", perspectiveOrigin: "50% 15%" }}
       >
-        {Object.keys(books).map(isbn => (
+        <div
+          className="relative preserve-3d m-auto pt-20 px-20 flex justify-center items-baseline"
+        >
+          {Object.keys(books).map(isbn => (
+            <div
+              key={isbn}
+              onClick={() => setSelected(isbn)}
+              className="relative ml-px preserve-3d cursor-pointer"
+              style={{
+                width: `${books[isbn].pages / 10}px`,
+                height: `${books[isbn].h}px`,
+                transform: `translateZ(-${books[isbn].pages / 10 / 2}px)`
+              }}
+            >
+              <Book
+                isbn={isbn}
+                book={books[isbn]}
+                selected={selected === isbn}
+              />
+            </div>
+          ))}
+        </div>
+        <div className="h-3 bg-wood">
           <div
-            key={isbn}
-            className="relative ml-px preserve-3d cursor-pointer"
+            className="h-64 bg-wood preserve-3d"
             style={{
-              width: `${books[isbn].pages / 10}px`,
-              height: `${books[isbn].h}px`,
-              transform: `translateZ(-${books[isbn].pages / 10 / 2}px)`
+              transform: "rotateX(-90deg)",
+              transformOrigin: "top"
             }}
-          >
-            <Book isbn={isbn} book={books[isbn]} />
-          </div>
-        ))}
+          />
+        </div>
       </div>
     </div>
   );
