@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div className="relative font-serif">
       <div
-        className="relative w-full p-20 flex justify-center items-baseline"
+        className="relative preserve-3d w-full p-20 flex justify-center items-baseline"
         style={{ perspective: "1800px", perspectiveOrigin: "50% 15%" }}
       >
         {Object.keys(books).map(isbn => (
