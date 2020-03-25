@@ -18,7 +18,7 @@ const Left = ({ book }) => {
       }}
     >
       <div
-        className="text-xs flex items-center pl-10"
+        className="text-xs flex items-center pl-10 overflow-hidden"
         style={{
           width: height,
           height: depth,

@@ -9,11 +9,13 @@ const App = () => {
     <div className="relative font-serif">
       <div
         className="relative m-auto flex flex-col preserve-3d p-2"
-        style={{ perspective: "1800px", perspectiveOrigin: "50% 15%" }}
+        style={{
+          perspective: "1800px",
+          perspectiveOrigin: "50% 15%",
+          transform: "scale(.6)"
+        }}
       >
-        <div
-          className="relative preserve-3d m-auto pt-20 px-20 flex justify-center items-baseline"
-        >
+        <div className="relative preserve-3d m-auto pt-20 px-20 flex justify-center items-baseline">
           {Object.keys(books).map(isbn => (
             <div
               key={isbn}

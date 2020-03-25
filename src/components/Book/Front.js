@@ -21,7 +21,7 @@ const Front = ({ book, state }) => {
       }}
     >
       <div
-        className="p-10 flex items-center justify-start flex-col absolute block backface-hidden preserve-3d z-10"
+        className="p-10 flex items-center justify-start flex-col absolute text-center block backface-hidden preserve-3d z-10"
         style={{
           width,
           height,
