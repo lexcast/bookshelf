@@ -32,7 +32,7 @@ const Front = ({ book, state }) => {
           boxShadow: "inset 4px 0 10px rgba(0, 0, 0, 0.1)"
         }}
       >
-        <div className="flex-1">
+        <div className="flex-1 flex flex-col items-center justify-start">
           <img
             className="w-32 mb-4 border-4 border-white"
             src={`/images/authors/${book.author_photo}`}
