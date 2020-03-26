@@ -25,7 +25,12 @@ const App = () => {
             />
           ))}
         </div>
-        <div className="h-3 bg-wood">
+        <div
+          className="h-3 bg-wood"
+          style={{
+            boxShadow: "-28px 25px 81px 9px black"
+          }}
+        >
           <div
             className="h-64 bg-wood preserve-3d"
             style={{
