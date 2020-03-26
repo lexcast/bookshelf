@@ -9,7 +9,7 @@ import Right from "./Right";
 
 const Book = props => {
   const [state, setState] = useState("stored");
-  const { book, isbn, selected, setSelected } = props;
+  const { book, selected, setSelected } = props;
   const width = `${book.pages / 10}px`;
   const height = `${book.h}px`;
 
@@ -27,7 +27,7 @@ const Book = props => {
 
   const onClick = () => {
     if (!selected) {
-      setSelected(isbn);
+      setSelected(book.isbn);
       return;
     }
 

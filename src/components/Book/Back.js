@@ -1,7 +1,7 @@
 import React from "react";
 import Barcode from "react-barcode";
 
-const Back = ({ book, isbn }) => {
+const Back = ({ book }) => {
   const width = `${book.w}px`;
   const height = `${book.h}px`;
   const halfDepth = `${book.pages / 10 / 2}px`;
@@ -30,7 +30,7 @@ const Back = ({ book, isbn }) => {
         }}
       >
         <Barcode
-          value={`0${isbn.replace(/\D/g, "0")}0`}
+          value={`0${book.isbn.replace(/\D/g, "0")}0`}
           format="EAN13"
           width={1}
           height={25}

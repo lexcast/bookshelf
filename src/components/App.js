@@ -16,12 +16,11 @@ const App = () => {
         }}
       >
         <div className="relative preserve-3d m-auto pt-20 px-20 flex justify-center items-baseline">
-          {Object.keys(books).map(isbn => (
+          {books.map(book => (
             <Book
-              key={isbn}
-              isbn={isbn}
-              book={books[isbn]}
-              selected={selected === isbn}
+              key={book.isbn}
+              book={book}
+              selected={selected === book.isbn}
               setSelected={setSelected}
             />
           ))}
