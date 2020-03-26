@@ -28,7 +28,7 @@ const Left = ({ book }) => {
         }}
       >
         <span className="flex-none uppercase font-sans">{book.author}</span>
-        <span className="font-semibold ml-2">{book.title}</span>
+        <span className="font-semibold ml-2">{book.l_title || book.title}</span>
       </div>
     </div>
   );
