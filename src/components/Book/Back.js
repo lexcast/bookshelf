@@ -29,7 +29,12 @@ const Back = ({ book, isbn }) => {
           transform: "scale(.7)"
         }}
       >
-        <Barcode value={`0${isbn}0`} format="EAN13" width={1} height={25} />
+        <Barcode
+          value={`0${isbn.replace(/\D/g, "0")}0`}
+          format="EAN13"
+          width={1}
+          height={25}
+        />
       </div>
       <div
         className="after absolute top-0 bottom-0 left-auto"

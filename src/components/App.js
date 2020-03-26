@@ -8,7 +8,7 @@ const App = () => {
   return (
     <div className="relative font-serif">
       <div
-        className="relative m-auto flex flex-col preserve-3d p-2"
+        className="relative m-auto flex flex-col flex-wrap preserve-3d p-2"
         style={{
           perspective: "1800px",
           perspectiveOrigin: "50% 15%",
