@@ -17,22 +17,12 @@ const App = () => {
       >
         <div className="relative preserve-3d m-auto pt-20 px-20 flex justify-center items-baseline">
           {Object.keys(books).map(isbn => (
-            <div
-              key={isbn}
-              onClick={() => setSelected(isbn)}
-              className="relative ml-px preserve-3d cursor-pointer"
-              style={{
-                width: `${books[isbn].pages / 10}px`,
-                height: `${books[isbn].h}px`,
-                transform: `translateZ(-${books[isbn].pages / 10 / 2}px)`
-              }}
-            >
-              <Book
-                isbn={isbn}
-                book={books[isbn]}
-                selected={selected === isbn}
-              />
-            </div>
+            <Book
+              isbn={isbn}
+              book={books[isbn]}
+              selected={selected === isbn}
+              setSelected={setSelected}
+            />
           ))}
         </div>
         <div className="h-3 bg-wood">

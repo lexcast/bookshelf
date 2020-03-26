@@ -39,10 +39,6 @@ body {
   transform-style: preserve-3d;
 }
 
-.t-transform-wait {
-  transition: transform 0.5s 0.5s;
-}
-
 .t-transform {
   transition: transform 0.5s;
 }
