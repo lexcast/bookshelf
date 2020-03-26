@@ -18,6 +18,7 @@ const App = () => {
         <div className="relative preserve-3d m-auto pt-20 px-20 flex justify-center items-baseline">
           {Object.keys(books).map(isbn => (
             <Book
+              key={isbn}
               isbn={isbn}
               book={books[isbn]}
               selected={selected === isbn}
