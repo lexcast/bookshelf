@@ -49,7 +49,6 @@ body {
 
 .hover-pull:hover {
   transform: rotateX(-15deg);
-  transform-origin: bottom;
 }
 
 .bg-wood {

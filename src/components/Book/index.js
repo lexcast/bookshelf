@@ -55,6 +55,7 @@ const Book = props => {
         style={{
           width,
           height,
+          transformOrigin: "bottom",
           transform: state !== "stored" ? "translateZ(350px)" : ""
         }}
       >
