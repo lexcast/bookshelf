@@ -26,8 +26,9 @@ const App = () => {
           ))}
         </div>
         <div
-          className="h-3 bg-wood"
+          className="h-3 bg-wood preserve-3d"
           style={{
+            transform: "translateZ(-1px)",
             boxShadow: "-28px 25px 81px 9px black"
           }}
         >
