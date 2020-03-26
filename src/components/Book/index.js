@@ -41,7 +41,7 @@ const Book = props => {
   return (
     <div
       onClick={onClick}
-      className="relative ml-px preserve-3d cursor-pointer"
+      className="relative ml-px preserve-3d cursor-pointer select-none"
       style={{
         width,
         height,
