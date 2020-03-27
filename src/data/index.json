@@ -273,6 +273,21 @@
     "sinopsis": "Mi Lucha, es el más negro de los libros de este siglo que termina y comienza, Biblia de los neo-nazis del mundo entero, libro perseguido y a la vez admirado secretamente por los gobernantes demócratas del planeta. Mi lucha de Adolf Hitler debe ser lectura obligada para todos aquellos que quieran comprender la política actual, es diferente en su forma, pero no en su esencia."
   },
   {
+    "isbn": "9700508021",
+    "title": "La revolucioncita mexicana",
+    "author": "Rius",
+    "author_photo": "rius.jpg",
+    "publisher": "Grijalbo Mondadori",
+    "cover": "9700508021.jpg",
+    "pages": "191",
+    "w": 306,
+    "h": 429,
+    "bg": "#f1e566",
+    "text": "#000",
+    "excerpt": "Don Porfirio Díaz Mori, oaxaqueño (1830), huérfano a los 2 años, herrero, carpintero, zapatero, abogado, presidente.",
+    "sinopsis": "La Revolución Mexicana también es cosa de risa. ¿Otro libro sobre la Revolución Mexicana? ¡Si nada más se han escrito unos 18 mil! Y cada uno de esos libros pretende ser El Libro de la revolución mexicana (igual que éste) ¿Cuál es entonces la intención de hacer otro? Pues inmodestamente, creo que faltaba un libro de humor sobre nuestro movimiento armado. Y que además se acerque a la verdad de lo ocurrido, aunque el autor sólo sepa de la tal revolución por libros y películas o pláticas, testimonios y cosas de ésas. En todo caso, será una interpretación humorística con pretensiones de veracidad. Nada más."
+  },
+  {
     "isbn": "607140312X",
     "title": "El cuervo. El gato negro. La caída de la casa Usher y otros cuentos de misterio y terror",
     "author": "Edgar Allan Poe",
