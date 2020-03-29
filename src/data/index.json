@@ -288,6 +288,21 @@
     "sinopsis": "An introduction to such a vast subject as Norse Mythology can be problematic as it could well fall between two stools; so packed with details as to put one off, or so vague, that one is none the wiser for having read it. This text manages a pleasing balance, succeeds in whetting the appetite and supplying excellent online resources for the reader who wishes to find out more. The author quotes generously from the most important relevant source which is freely available via the Project Gutenberg, and you are left with the sounds and taste of the times... ringing in your ears and tingling on your tongue."
   },
   {
+    "isbn": "9684111819",
+    "title": "Aura",
+    "author": "Carlos Fuentes",
+    "author_photo": "fuentes.jpg",
+    "publisher": "Ediciones Era",
+    "cover": "9684111819.jpg",
+    "pages": "62",
+    "w": 306,
+    "h": 446,
+    "bg": "#101013",
+    "text": "#fff",
+    "excerpt": "Las imagenes del sueño alteran la realidad o la realidad se ve contaminada por el sueño.",
+    "sinopsis": "Lees ese anuncio: una oferta de esa naturaleza no se hace todos los días. Lees y relees el aviso. Parece dirigido a ti, a nadie más: así comienza Aura, una de las novelas más embrujantes de la literatura mexicana, una lúcida y a la par alucinada exploración de esa zona del arte donde el horror engendra la hermosura, donde lo verdadero es lo imposible, donde el amor sacrifica la vida y la inmortalidad tiene un precio que algunos están dispuestos a pagar."
+  },
+  {
     "isbn": "8401390788",
     "title": "El Diario de Anne Frank",
     "author": "Anne Frank",
