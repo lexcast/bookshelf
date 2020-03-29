@@ -210,6 +210,21 @@
     "sinopsis": "En la adormecida e idílica Comarca, un joven hobbit recibe un encargo: custodiar el Anillo Único y emprender el viaje para su destrucción en la Grieta del Destino. Acompañado por magos, hombres, elfos y enanos, atravesará la Tierra Media y se internará en las sombras de Mordor, perseguido siempre por las huestes de Sauron, el Señor Oscuro, dispuesto a recuperar su creación para establecer el dominio definitivo del Mal."
   },
   {
+    "isbn": "8445000683",
+    "title": "El Señor De Los Anillos El Retorno Del Rey",
+    "author": "J.R.R. Tolkien",
+    "author_photo": "tolkien.jpg",
+    "publisher": "Booket",
+    "cover": "8445000683.jpg",
+    "pages": "603",
+    "w": 306,
+    "h": 466,
+    "bg": "#251e1e",
+    "text": "#fff",
+    "excerpt": "Venga, señor Frodo! No puedo llevarlo por usted, pero puedo llevarlo a usted junto con él. ¡Vamos, querido señor Frodo! Sam lo llevará a babuchas. Usted le dice por dónde, y él irá.",
+    "sinopsis": "Los ejércitos del Señor Oscuro van extendiendo cada vez más su maléfica sombra por la Tierra Media. Hombres, elfos y enanos unen sus fuerzas para presentar batalla a Sauron y sus huestes. Ajenos a estos preparativos, Frodo y Sam siguen adentrándose en el país de Mordor en su heroico viaje para destruir el Anillo de Poder en las Grietas del Destino."
+  },
+  {
     "isbn": "0307392333",
     "title": "La décima sinfonía",
     "author": "Joseph Gelinek",
