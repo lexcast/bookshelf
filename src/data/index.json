@@ -318,6 +318,21 @@
     "sinopsis": "Lees ese anuncio: una oferta de esa naturaleza no se hace todos los días. Lees y relees el aviso. Parece dirigido a ti, a nadie más: así comienza Aura, una de las novelas más embrujantes de la literatura mexicana, una lúcida y a la par alucinada exploración de esa zona del arte donde el horror engendra la hermosura, donde lo verdadero es lo imposible, donde el amor sacrifica la vida y la inmortalidad tiene un precio que algunos están dispuestos a pagar."
   },
   {
+    "isbn": "8420471836",
+    "title": "Cien años de soledad",
+    "author": "Gabriel García Márquez",
+    "author_photo": "marquez.jpg",
+    "publisher": "Real Academia Española",
+    "cover": "8420471836.jpg",
+    "pages": "756",
+    "w": 306,
+    "h": 500,
+    "bg": "#28352b",
+    "text": "#fff",
+    "excerpt": "Uno no es de ninguna parte mientras no tenga un muerto bajo la tierra.",
+    "sinopsis": "Como con el Quijote cuando cumplió cuatro siglos, la Real Academia lanza una edición especial de una novela ejemplar. Esta vez, le toca a Cien años de soledad en una edición limitada que circulará sólo 3 años a partir de su presentación, a fines de marzo del 2007 en Cartagena de Indias, para festejar los 40 años de su primera publicación y los 80 de García Márquez. La introducción es de Carlos Fuentes, el análisis de Mario Vargas Llosa y el perfil del autor, de Álvaro Mutis. Incluye glosario, genealogía de los Buendía, estudios de académicos de varios países y notas de Gabo, quien autorizó las pruebas de impresión finales y las correcciones pendientes desde aquella primera edición de Sudamericana en Buenos Aires en 1967. Un libro de lujo."
+  },
+  {
     "isbn": "0307475441",
     "title": "El coronel no tiene quien le escriba",
     "author": "Gabriel García Márquez",
