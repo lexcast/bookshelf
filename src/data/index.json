@@ -240,6 +240,21 @@
     "sinopsis": "El mundo de la música clásica se revoluciona cuando el prestigioso director de orquesta Roland Thomas interpreta, en un concierto privado, la supuesta reconstrucción del primer movimiento de la mítica Décima Sinfonía de Beethoven. Uno de los invitados al acontecimiento, el joven musicólogo Daniel Paniagua, sospecha al escuchar una música tan sublime y le asaltan las dudas: ¿Y si la partitura original de la Décima existiera y hubiera llegado a manos de Thomas? ¿Y si el genio de Bonn hubiera vencido la supuesta «maldición de la décima», que se dice acababa con la vida de los compositores que intentaron finalizarla? Tras un cruento asesinato, comienza una peligrosa carrera contrarreloj en la que Daniel, ayudado por una intrépida juez y un perspicaz inspector de homicidios, tiene que enfrentarse a influyentes grupos de poder, desde oscuros hombres de negocios a descendientes de Napoleón, que pelean por hacerse con el llamado «Santo Grial» de la música clásica. Ninguno de ellos sabe que la respuesta a todas sus preguntas está en el convulso pasado de Beethoven y en un amor prohibido que ha permanecido oculto hasta ahora…"
   },
   {
+    "isbn": "8496829006",
+    "title": "El Código Da Vinci",
+    "author": "Dan Brown",
+    "author_photo": "brown.jpg",
+    "publisher": "Umbriel",
+    "cover": "8496829006.jpg",
+    "pages": "672",
+    "w": 306,
+    "h": 471,
+    "bg": "#dc4a30",
+    "text": "#fff",
+    "excerpt": "El hombre llega mucho más lejos para evitar lo que teme que para alcanzar lo que desea.",
+    "sinopsis": "Antes de morir asesinado, Jacques Sauniere, el ultimo Gran Maestre de una sociedad secreta que se remonta a la fundacion de los Templarios, transmite a su nieta Sofia una misteriosa clave. Sauniere y sus predecesores, entre los que se encontraban hombres como Isaac Newton o Leonardo Da Vinci, han conservado durante siglos un conocimiento que puede cambiar completamente la historia de la humanidad. Ahora Sofia, con la ayuda del experto en simbologia Robert Langdon, comienza la busqueda de ese secreto, en una trepidante carrera que les lleva de una clave a otra, descifrando mensajes ocultos en los mas famosos cuadros del genial pintor y en las paredes de antiguas catedrales. Un rompecabezas que deberan resolver pronto, ya que no estan solos en el juego: una poderosa e influyente organizacion catolica esta dispuesta a emplear todos los medios para evitar que el secreto salga a la luz."
+  },
+  {
     "isbn": "8492516518",
     "title": "Ángeles y Demonios",
     "author": "Dan Brown",
