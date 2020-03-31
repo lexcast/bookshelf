@@ -195,6 +195,21 @@
     "sinopsis": "No hace tanto tiempo, Eragon no era más que un pobre muchacho que vivía en una granja y su dragona, Saphira, una piedra azul oculta en el bosque. Ahora, el destino de una civilización recae sobre sus hombros.Los largos meses de entrenamiento y batallas les han traído victorias y esperanza pero también pérdidas terribles. Pero la verdadera batalla aún no ha llegado: deberán enfrentarse con Galbatorix. Cuando finalmente lo hagan, tendrán que ser lo suficientemente fuertes como para vencerle porque si ellos no lo hacen, nadie podrá. No habrá una segunda oportunidad. El Jinete y su dragona han llegado mucho más lejos de lo que nadie e atrevía ni siquiera a imaginar, pero ¿pueden derrocar al malvado Rey y devolver la justicia a Alagaësia? Y si así es ¿cuál será el precio que tendrán que pagar?"
   },
   {
+    "isbn": "844507380X",
+    "title": "El Hobbit",
+    "author": "J.R.R. Tolkien",
+    "author_photo": "tolkien.jpg",
+    "publisher": "Minotauro",
+    "cover": "844507380X.jpg",
+    "pages": "288",
+    "w": 306,
+    "h": 482,
+    "bg": "#36382e",
+    "text": "#fff",
+    "excerpt": "No hay nada como mirar, si queréis encontrar algo.",
+    "sinopsis": "Cuando alrededor de 1930, J.R.R. Tolkien comenzó a escribir El Hobbit, hacía ya diez años que trabajaba en el vasto panorama mitológico de El Libro de los Relatos, que más tarde se llamaría El Silmarillion. Así como esas crónicas tempranas narraban los mitos inmemoriales de la Primera y Segunda Edad, Tolkien pronto advirtió que El Hobbit iba ordenándose de algún modo como un relato de la Tercera Edad (Gandalf habla del Nigromante en las primeras páginas), aunque las inesperadas aventuras de un pacífico hombre del campo no parecieran tener mucha relación con las vastas y oscuras mitologías de la Tierra Media. El estilo directo y lineal, con alusiones (que el autor deploró más tarde) a un público infantil, no impide la poderosa irrupción --unas pocas veces en términos de comedia-- de los grandes temas tolkienianos (el poder, la codicia, la guerra, la muerte) que reaparecerían en una dimensión a menudo obviamente épica en El Señor de los Anillos."
+  },
+  {
     "isbn": "8445000667",
     "title": "El Señor de los Anillos La Comunidad del Anillo",
     "author": "J.R.R. Tolkien",
