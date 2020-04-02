@@ -28,8 +28,7 @@ const Front = ({ book, state }) => {
           backgroundColor,
           color: book.text,
           transform: "rotate3d(0,1,0,-180deg)",
-          borderRadius: "3px 0 0 3px",
-          boxShadow: "inset 4px 0 10px rgba(0, 0, 0, 0.1)"
+          borderRadius: "3px 0 0 3px"
         }}
       >
         <div className="flex-1 flex flex-col items-center justify-start">
@@ -48,8 +47,7 @@ const Front = ({ book, state }) => {
           width,
           height,
           backgroundColor,
-          borderRadius: "0 3px 3px 0",
-          boxShadow: "inset 4px 0 10px rgba(0, 0, 0, 0.1)"
+          borderRadius: "0 3px 3px 0"
         }}
       >
         <img
@@ -67,8 +65,7 @@ const Front = ({ book, state }) => {
           style={{
             left: "10px",
             width: "3px",
-            background: "rgba(0,0,0,0.06)",
-            boxShadow: "1px 0 3px rgba(255, 255, 255, 0.1)"
+            background: "rgba(0,0,0,0.06)"
           }}
         />
       </div>

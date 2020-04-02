@@ -9,7 +9,7 @@ const Back = ({ book }) => {
 
   return (
     <div
-      className="text-justify p-10 absolute block shadow-lg overflow-hidden"
+      className="text-justify p-10 absolute block overflow-hidden"
       style={{
         fontSize: ".6rem",
         width,
@@ -41,8 +41,7 @@ const Back = ({ book }) => {
         style={{
           right: "10px",
           width: "3px",
-          background: "rgba(0,0,0,0.06)",
-          boxShadow: "1px 0 3px rgba(255, 255, 255, 0.1)"
+          background: "rgba(0,0,0,0.06)"
         }}
       />
     </div>

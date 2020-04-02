@@ -6,7 +6,7 @@ const App = () => {
   const [selected, setSelected] = useState();
 
   return (
-    <div className="relative font-serif">
+    <div className="relative font-serif" style={{ width: "fit-content" }}>
       <div
         className="relative m-auto flex flex-col flex-wrap preserve-3d p-2"
         style={{
@@ -27,10 +27,7 @@ const App = () => {
         </div>
         <div
           className="h-3 bg-wood preserve-3d"
-          style={{
-            transform: "translateZ(-1px)",
-            boxShadow: "-28px 25px 81px 9px black"
-          }}
+          style={{ transform: "translateZ(-1px)" }}
         >
           <div
             className="h-64 bg-wood preserve-3d"
