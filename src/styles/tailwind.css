@@ -2,9 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
 body {
   height: 100%;
   width: 100%;
+  overflow: auto;
+  perspective: 5000px;
   background: rgb(233, 223, 196);
   background: linear-gradient(
     to left,
@@ -29,6 +37,13 @@ body {
   );
   background-size: 120px;
   background-repeat: repeat;
+}
+
+#root {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  height: 100%;
 }
 
 .backface-hidden {
