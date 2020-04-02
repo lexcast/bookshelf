@@ -225,6 +225,21 @@
     "sinopsis": "En la adormecida e idílica Comarca, un joven hobbit recibe un encargo: custodiar el Anillo Único y emprender el viaje para su destrucción en la Grieta del Destino. Acompañado por magos, hombres, elfos y enanos, atravesará la Tierra Media y se internará en las sombras de Mordor, perseguido siempre por las huestes de Sauron, el Señor Oscuro, dispuesto a recuperar su creación para establecer el dominio definitivo del Mal."
   },
   {
+    "isbn": "8445000675",
+    "title": "El Señor de los Anillos Las Dos Torres",
+    "author": "J.R.R. Tolkien",
+    "author_photo": "tolkien.jpg",
+    "publisher": "Booket",
+    "cover": "8445000675.jpg",
+    "pages": "476",
+    "w": 306,
+    "h": 466,
+    "bg": "#251e1e",
+    "text": "#fff",
+    "excerpt": "Los traicioneros son siempre desconfiados.",
+    "sinopsis": "La Compañía se ha disuelto y sus integrantes emprenden caminos separados. Frodo y Sam continúan solos su viaje a lo largo del río Anduin, perseguidos por la sombra misteriosa de un ser extraño que también ambiciona la posesión del Anillo. Mientras, hombres, elfos y enanos se preparan para la batalla final contra las fuerzas del Señor del Mal."
+  },
+  {
     "isbn": "8445000683",
     "title": "El Señor De Los Anillos El Retorno Del Rey",
     "author": "J.R.R. Tolkien",
