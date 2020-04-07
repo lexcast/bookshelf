@@ -2,6 +2,7 @@
   {
     "isbn": "8478884459",
     "title": "Harry Potter y la piedra filosofal",
+    "collection": 1,
     "author": "J.K. Rowling",
     "author_photo": "rowling.jpg",
     "publisher": "Salamandra",
@@ -17,6 +18,7 @@
   {
     "isbn": "8498389240",
     "title": "Harry Potter y la cámara secreta",
+    "collection": 2,
     "author": "J.K. Rowling",
     "author_photo": "rowling.jpg",
     "publisher": "Salamandra",
@@ -32,6 +34,7 @@
   {
     "isbn": "8498389259",
     "title": "Harry Potter y el prisionero de Azkaban",
+    "collection": 3,
     "author": "J.K. Rowling",
     "author_photo": "rowling.jpg",
     "publisher": "Salamandra",
@@ -47,6 +50,7 @@
   {
     "isbn": "8498389267",
     "title": "Harry Potter y el cáliz de fuego",
+    "collection": 4,
     "author": "J.K. Rowling",
     "author_photo": "rowling.jpg",
     "publisher": "Salamandra",
@@ -62,6 +66,7 @@
   {
     "isbn": "8498389275",
     "title": "Harry Potter y la Orden del Fénix",
+    "collection": 5,
     "author": "J.K. Rowling",
     "author_photo": "rowling.jpg",
     "publisher": "Salamandra",
@@ -77,6 +82,7 @@
   {
     "isbn": "8478889922",
     "title": "Harry Potter y el misterio del príncipe",
+    "collection": 6,
     "author": "J.K. Rowling",
     "author_photo": "rowling.jpg",
     "publisher": "Salamandra",
@@ -92,6 +98,7 @@
   {
     "isbn": "8498389291",
     "title": "Harry Potter y las Reliquias de la Muerte",
+    "collection": 7,
     "author": "J.K. Rowling",
     "author_photo": "rowling.jpg",
     "publisher": "Salamandra",
@@ -137,6 +144,7 @@
   {
     "isbn": "8496284328",
     "title": "Eragon",
+    "collection": 1,
     "author": "Christopher Paolini",
     "author_photo": "paolini.jpg",
     "publisher": "Roca Editorial",
@@ -152,6 +160,7 @@
   {
     "isbn": "8499182976",
     "title": "Eldest",
+    "collection": 2,
     "author": "Christopher Paolini",
     "author_photo": "paolini.jpg",
     "publisher": "Roca Editorial",
@@ -167,6 +176,7 @@
   {
     "isbn": "8499182984",
     "title": "Brisingr",
+    "collection": 3,
     "author": "Christopher Paolini",
     "author_photo": "paolini.jpg",
     "publisher": "Roca Editorial",
@@ -182,6 +192,7 @@
   {
     "isbn": "8499183395",
     "title": "Legado",
+    "collection": 4,
     "author": "Christopher Paolini",
     "author_photo": "paolini.jpg",
     "publisher": "Roca Editorial",
@@ -212,6 +223,7 @@
   {
     "isbn": "8445000667",
     "title": "El Señor de los Anillos La Comunidad del Anillo",
+    "collection": 1,
     "author": "J.R.R. Tolkien",
     "author_photo": "tolkien.jpg",
     "publisher": "Booket",
@@ -227,6 +239,7 @@
   {
     "isbn": "8445000675",
     "title": "El Señor de los Anillos Las Dos Torres",
+    "collection": 2,
     "author": "J.R.R. Tolkien",
     "author_photo": "tolkien.jpg",
     "publisher": "Booket",
@@ -242,6 +255,7 @@
   {
     "isbn": "8445000683",
     "title": "El Señor De Los Anillos El Retorno Del Rey",
+    "collection": 3,
     "author": "J.R.R. Tolkien",
     "author_photo": "tolkien.jpg",
     "publisher": "Booket",
@@ -605,6 +619,7 @@
   {
     "isbn": "1932664084",
     "title": "Scott Pilgrim's Precious Little Life",
+    "collection": 1,
     "author": "Bryan Lee O'Malley",
     "author_photo": "omalley.jpg",
     "publisher": "Oni Press",
@@ -636,6 +651,7 @@
   {
     "isbn": "1934964107",
     "title": "Scott Pilgrim vs. the Universe",
+    "collection": 5,
     "author": "Bryan Lee O'Malley",
     "author_photo": "omalley.jpg",
     "publisher": "Oni Press",

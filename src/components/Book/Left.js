@@ -30,6 +30,18 @@ const Left = ({ book }) => {
         <span className="flex-none uppercase font-sans">{book.author}</span>
         <span className="font-semibold ml-2">{book.l_title || book.title}</span>
       </div>
+      {book.collection && (
+        <div
+          className="text-base leading-none font-bold h-10 flex items-center justify-center overflow-hidden"
+          style={{
+            width: depth,
+            color: book.text,
+            transform: `rotate(180deg) translateY(${depth})`
+          }}
+        >
+          {book.collection}
+        </div>
+      )}
     </div>
   );
 };
