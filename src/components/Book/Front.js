@@ -17,7 +17,7 @@ const Front = ({ book, state }) => {
             : `translate3d(0,0,${halfDepth})`,
         width,
         height,
-        borderRadius: "0 3px 3px 0"
+        borderRadius: "0 3px 3px 0",
       }}
     >
       <div
@@ -28,13 +28,13 @@ const Front = ({ book, state }) => {
           backgroundColor,
           color: book.text,
           transform: "rotate3d(0,1,0,-180deg)",
-          borderRadius: "3px 0 0 3px"
+          borderRadius: "3px 0 0 3px",
         }}
       >
         <div className="flex-1 flex flex-col items-center justify-start">
           <img
             className="w-32 mb-4 border-4 border-white"
-            src={`/images/authors/${book.author_photo}`}
+            src={`${process.env.PUBLIC_URL}/images/authors/${book.author_photo}`}
             alt={book.author}
           />
           <h1>{book.author}</h1>
@@ -47,7 +47,7 @@ const Front = ({ book, state }) => {
           width,
           height,
           backgroundColor,
-          borderRadius: "0 3px 3px 0"
+          borderRadius: "0 3px 3px 0",
         }}
       >
         <img
@@ -55,9 +55,9 @@ const Front = ({ book, state }) => {
           style={{
             width,
             height,
-            borderRadius: "0 3px 3px 0"
+            borderRadius: "0 3px 3px 0",
           }}
-          src={`/images/covers/${book.cover}`}
+          src={`${process.env.PUBLIC_URL}/images/covers/${book.cover}`}
           alt={book.title}
         />
         <div
@@ -65,7 +65,7 @@ const Front = ({ book, state }) => {
           style={{
             left: "10px",
             width: "3px",
-            background: "rgba(0,0,0,0.06)"
+            background: "rgba(0,0,0,0.06)",
           }}
         />
       </div>
@@ -75,7 +75,7 @@ const Front = ({ book, state }) => {
           backgroundColor,
           top: "1px",
           bottom: "1px",
-          left: "-1px"
+          left: "-1px",
         }}
       />
     </div>
