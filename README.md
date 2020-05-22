@@ -17,7 +17,7 @@ Just clone it or download the repository, and run `yarn install`.
 To add a book you need to specify it in `src/data/index.json`.
 This file has an array with each book in the following format:
 
-```json
+```js
 [
   {
     "isbn": "8478884459", // has to be a isbn 10
