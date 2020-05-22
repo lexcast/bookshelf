@@ -2,6 +2,8 @@
 
 Show your virtual book collection.
 
+See in action [here](https://lexcast.github.io/bookshelf/).
+
 ![example](https://user-images.githubusercontent.com/10590799/82294403-b5e20a00-9973-11ea-9664-9f58fc9d1b55.png)
 
 Based on [this article](https://tympanus.net/codrops/2013/01/08/3d-book-showcase/) by [@crnacura](https://github.com/crnacura).
