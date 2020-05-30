@@ -1,4 +1,4 @@
-name: CI DEPLOY
+name: CI REBASE PERSONAL
 on:
   push:
     branches: [ master ]
