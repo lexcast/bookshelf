@@ -14,6 +14,7 @@ jobs:
     - uses: oleksiyrudenko/gha-git-credentials@v1
       with:
         token: '${{ secrets.GITHUB_TOKEN }}'
+    - run: git fetch origin personal
     - run: git checkout --track origin/personal
     - run: git rebase master
     - run: git push origin personal -f
