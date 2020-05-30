@@ -1,4 +1,4 @@
-name: CI REBASE PERSONAL
+name: CI UPDATE PERSONAL
 on:
   push:
     branches: [ master ]
