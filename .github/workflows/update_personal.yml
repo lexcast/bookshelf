@@ -19,5 +19,5 @@ jobs:
         token: '${{ secrets.GITHUB_TOKEN }}'
     - run: git checkout -b personal
     - run: git pull origin personal
-    - run: git merge master
-    - run: git push origin personal
+    - run: git rebase master
+    - run: git push origin personal -f
