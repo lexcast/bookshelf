@@ -1,4 +1,6 @@
 # Bookshelf
+![CI DEPLOY](https://github.com/lexcast/bookshelf/workflows/CI%20DEPLOY/badge.svg?branch=personal)
+![CI UPDATE PERSONAL](https://github.com/lexcast/bookshelf/workflows/CI%20UPDATE%20PERSONAL/badge.svg)
 
 Show your virtual book collection.
 
