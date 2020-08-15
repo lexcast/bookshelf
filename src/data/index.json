@@ -833,5 +833,21 @@
     "text": "#000",
     "excerpt": "Hi friends! My name is Wally. I'm just setting off on a worldwide hike.",
     "sinopsis": "An activity book that features Wally, who along with his friends, are fiendishly hidden in every intricately-detailed scene. It features hours of fun and games."
+  },
+  {
+    "isbn": "1406313203",
+    "collection": 2,
+    "title": "Where's Wally Now?",
+    "author": "Martin Handford",
+    "author_photo": "handford.jpeg",
+    "publisher": "Walker Books",
+    "cover": "1406313203.jpg",
+    "pages": "32",
+    "w": 306,
+    "h": 382,
+    "bg": "#ec2a49",
+    "text": "#fff",
+    "excerpt": "Hi there, book worms! Some bits of history are amazing!",
+    "sinopsis": "Helps readers to dive into the past - and maybe the future - on their search for the mischevious Wally and his friends."
   }
 ]
