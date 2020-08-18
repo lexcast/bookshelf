@@ -849,5 +849,21 @@
     "text": "#fff",
     "excerpt": "Hi there, book worms! Some bits of history are amazing!",
     "sinopsis": "Helps readers to dive into the past - and maybe the future - on their search for the mischevious Wally and his friends."
+  },
+  {
+    "isbn": "1406313211",
+    "collection": 3,
+    "title": "Where's Wally? The Fantastic Journey",
+    "author": "Martin Handford",
+    "author_photo": "handford.jpeg",
+    "publisher": "Walker Books",
+    "cover": "1406313211.jpg",
+    "pages": "32",
+    "w": 306,
+    "h": 383,
+    "bg": "#f3eb1d",
+    "text": "#000",
+    "excerpt": "Once upon a time Wally embarked upon a fantastic journey.",
+    "sinopsis": "Join Wally is on his quest through magical and bizarre fantasy lands. This book lets you hunt for Wally and his friends who are hidden in intricately-detailed scenes. It also includes a magnifying glass."
   }
 ]
