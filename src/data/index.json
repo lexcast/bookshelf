@@ -513,6 +513,21 @@
     "sinopsis": "Los poemas de Bécquer están identificados con su personalidad, y existe una razón fundamental para hacer tal consideración: la vida del poeta está reflejada con un matiz imborrable en las características de las Rimas; todo en ellas es bruma, niebla, límite entre la realidad y la fantasía, renuncia, sacrificio, resignación. Las narraciones de este autor ofrecen misterio, fantasía desbordada, casi siempre amor. Bécquer es una figura emblemática del Romanticismo, movimiento que se alejó de las fórmulas para consagrar la sencillez y la sinceridad. En las creaciones de este escritor se encuentra un reflejo de sus características como pintor: color, luz, línea, forma. Su obra ha sido estudiada minuciosamente: la escritura de cada poema, el simbolismo que encierran las palabras, las bellas imágenes que constantemente se emplean; nada ha quedado por analizar, clasificar y tratar de comprender."
   },
   {
+    "isbn": "1773137255",
+    "title": "El Arte de la Guerra",
+    "author": "Sun Tzu",
+    "author_photo": "tzu.jpg",
+    "publisher": "Aegitas",
+    "cover": "1773137255.jpg",
+    "pages": "47",
+    "w": 306,
+    "h": 460,
+    "bg": "#000",
+    "text": "#fff",
+    "excerpt": "La mejor victoria es vencer sin combatir.",
+    "sinopsis": "El Arte de la Guerra es el mejor libro de estrategia de todos los tiempos. Inspiró a Napoleón, Maquiavelo, Mao Tse Tung y muchas más figuras históricas. Este libro, de dos mil quinientos años de antigüedad, es uno de los más importantes textos clásicos chinos, en el que, a pesar del tiempo transcurrido, ninguna de sus máximas ha quedado anticuada, ni hay un solo consejo que hoy no sea útil. Pero la obra del general Sun Tzu no es únicamente un libro de práctica militar, sino un tratado que enseña la estrategia suprema de aplicar con sabiduría el conocimiento de la naturaleza humana en los momentos de confrontación. No es, por tanto, un libro sobre la guerra; es una obra para comprender las raíces de un conflicto y buscar una solución. “La mejor victoria es vencer sin combatir”, nos dice Sun Tzu, “y ésa es la distinción entre le hombre prudente y el ignorante”."
+  },
+  {
     "isbn": "9700760839",
     "title": "Cumbres Borrascosas",
     "author": "Emily Brontë",
