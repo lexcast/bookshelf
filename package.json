@@ -8,7 +8,7 @@
     "react": "^16.13.1",
     "react-barcode": "^1.4.0",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -35,8 +35,8 @@
     ]
   },
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^2.3.0",
-    "postcss-cli": "^7.1.1",
-    "tailwindcss": "^1.5.1"
+    "@fullhuman/postcss-purgecss": "^3.0.0",
+    "postcss-cli": "^8.0.0",
+    "tailwindcss": "^1.8.10"
   }
 }
