@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Book from "./Book";
 import books from "data";
 
-const CHUNK_SIZE = 17;
+const CHUNK_SIZE = 18;
 const chunks = books.reduce((resultArray, item, index) => {
   const chunkIndex = Math.floor(index / CHUNK_SIZE);
 

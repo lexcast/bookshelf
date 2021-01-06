@@ -206,6 +206,21 @@
     "sinopsis": "No hace tanto tiempo, Eragon no era más que un pobre muchacho que vivía en una granja y su dragona, Saphira, una piedra azul oculta en el bosque. Ahora, el destino de una civilización recae sobre sus hombros.Los largos meses de entrenamiento y batallas les han traído victorias y esperanza pero también pérdidas terribles. Pero la verdadera batalla aún no ha llegado: deberán enfrentarse con Galbatorix. Cuando finalmente lo hagan, tendrán que ser lo suficientemente fuertes como para vencerle porque si ellos no lo hacen, nadie podrá. No habrá una segunda oportunidad. El Jinete y su dragona han llegado mucho más lejos de lo que nadie e atrevía ni siquiera a imaginar, pero ¿pueden derrocar al malvado Rey y devolver la justicia a Alagaësia? Y si así es ¿cuál será el precio que tendrán que pagar?"
   },
   {
+    "isbn": "8445073818",
+    "title": "El Silmarillion",
+    "author": "J.R.R. Tolkien",
+    "author_photo": "tolkien.jpg",
+    "publisher": "Minotauro",
+    "cover": "8445073818.jpg",
+    "pages": "416",
+    "w": 306,
+    "h": 463,
+    "bg": "#171710",
+    "text": "#fff",
+    "excerpt": "Dicen los sabios de Eressëa que todos los Quendi que cayeron en manos de Melkor, antes de la caída de Utumno, fueron puestos en prisión, y por las lentas artes de la crueldad, corrompidos y esclavizados; y así crió Melkor la raza de los Orcos.",
+    "sinopsis": "Tolkien comenzó a escribir El Silmarillion mucho antes que El Hobbit, obra concebida como historia independiente, pero que fue parte de lo que él llamaba un «tema que copia y se ramifica», y del que emergió El Señor de los Anillos.\nEl Silmarillion cuenta la historia de la Primera Edad, el antiguo drama del que hablan los personajes de El Señor de los Anillos, y en cuyos acontecimientos algunos de ellos tomaron parte, como Elrond y Galadriel.\nLos tres Silmarils eran gemas creadas por Fëanor, el más dotado de los Elfos, y contenían la Luz de los Dos Árboles de Valinor antes de que los Árboles mismos fueran destruidos por Morgoth, el primer Señor Oscuro. Desde entonces la inmaculada Luz de Valinor vivió sólo en los Silmarils, pero Morgoth se apoderó de ellos, y los engarzó en su corona, guardada en la fortaleza impenetrable de Angband en el norte de la Tierra Media."
+  },
+  {
     "isbn": "844507380X",
     "title": "El Hobbit",
     "author": "J.R.R. Tolkien",

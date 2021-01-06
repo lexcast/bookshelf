@@ -22,7 +22,7 @@ const Back = ({ book }) => {
     >
       <h1 className="text-xs font-bold text-center">{book.title}</h1>
       <h2 className="text-xs text-center mb-2">{book.author}</h2>
-      <p>{book.sinopsis}</p>
+      <p className="whitespace-pre-line">{book.sinopsis}</p>
       <div
         className="absolute bottom-0 right-0 mr-8 mb-3"
         style={{
