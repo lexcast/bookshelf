@@ -42,12 +42,4 @@ This file has an array with each book in the following format:
 
 ## Available Scripts
 
-This project is a Create React App, and it has all of its scripts, plus two to run tailwindcss (generates the styles):
-
-### `yarn start:tw`
-
-Runs tailwindcss in the development mode.
-
-### `yarn build:tw`
-
-Runs tailwindcss in the production mode.<br />
+This project is a Create React App, and it has all of its scripts.
