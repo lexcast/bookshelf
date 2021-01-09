@@ -39,7 +39,7 @@ const Front = ({ book, state }) => {
           />
           <h1>{book.author}</h1>
         </div>
-        <h3 className="text-xs font-thin">{book.publisher}</h3>
+        <h3 className="text-xs font-extralight">{book.publisher}</h3>
       </div>
       <div
         className="absolute block backface-hidden preserve-3d z-10"
