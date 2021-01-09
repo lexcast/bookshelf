@@ -28,7 +28,7 @@ const App = () => {
             onClick={() => setChunk(i)}
             className={
               "m-2 inline-block w-3 h-3 rounded-full opacity-50 cursor-pointer " +
-              (chunk === i ? "bg-orange-600" : "bg-gray-800 hover:opacity-75")
+              (chunk === i ? "bg-yellow-600" : "bg-gray-800 hover:opacity-75")
             }
           />
         ))}
@@ -38,7 +38,7 @@ const App = () => {
         style={{ transform: "scale(.6)" }}
       >
         <div className="relative preserve-3d m-auto px-20 flex justify-center items-baseline">
-          {chunks[chunk].map(book => (
+          {chunks[chunk].map((book) => (
             <Book
               key={book.isbn}
               book={book}
@@ -55,7 +55,7 @@ const App = () => {
             className="h-64 bg-wood preserve-3d"
             style={{
               transform: "rotateX(-90deg)",
-              transformOrigin: "top"
+              transformOrigin: "top",
             }}
           />
         </div>
