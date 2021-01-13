@@ -946,7 +946,7 @@
   {
     "isbn": "2843944007",
     "collection": 1,
-    "title": "Antonio Lauro: Works for Guitar, Volume 1",
+    "title": "Antonio Lauro: Works for Guitar, Vol. 1",
     "author": "Antonio Lauro",
     "author_photo": "lauro.jpg",
     "publisher": "Dave Mallison Publications",
@@ -962,7 +962,7 @@
   {
     "isbn": "2843944058",
     "collection": 2,
-    "title": "Antonio Lauro: Works for Guitar, Volume 2",
+    "title": "Antonio Lauro: Works for Guitar, Vol. 2",
     "author": "Antonio Lauro",
     "author_photo": "lauro.jpg",
     "publisher": "Dave Mallison Publications",
@@ -978,7 +978,7 @@
   {
     "isbn": "2843944104",
     "collection": 3,
-    "title": "Antonio Lauro: Works for Guitar, Volume 3",
+    "title": "Antonio Lauro: Works for Guitar, Vol. 3",
     "author": "Antonio Lauro",
     "author_photo": "lauro.jpg",
     "publisher": "Dave Mallison Publications",
@@ -994,7 +994,7 @@
   {
     "isbn": "2843944015",
     "collection": 4,
-    "title": "Antonio Lauro: Works for Guitar, Volume 4",
+    "title": "Antonio Lauro: Works for Guitar, Vol. 4",
     "author": "Antonio Lauro",
     "author_photo": "lauro.jpg",
     "publisher": "Dave Mallison Publications",
@@ -1006,5 +1006,53 @@
     "text": "#000",
     "excerpt": "Para mi nieta, María Carolina.",
     "sinopsis": "Antonio Lauro is one of the most famous composers to come from Venezuela. He has written many works for orchestra, piano, choir, harpsichord, and guitar. He is most well-known for his guitar works, this being his main instrument. In the early 1980s he gave concerts in London and Paris at the request of John Williams and Paco Pena. The pieces represented in these guitar works are for players at a beginner-intermediate level, and in standard notation only. The Venezuelan waltz differs from the European waltz in its rhythm which may alternate between 3/4 and 6/8 time and in its more syncopated style. Continuing the 19th Century tradition of other composers of Venezuelan waltzes, Lauro named many of his pieces after people or places. \"Maria Carolina\" is the name of one of Lauro's granddaughters. \"Ana Christina\" is another granddaughter of Lauro. \"Virgilio\" is the name of Lauro's grandson."
+  },
+  {
+    "isbn": "2843944066",
+    "collection": 5,
+    "title": "Antonio Lauro: Works for Guitar, Vol. 5",
+    "author": "Antonio Lauro",
+    "author_photo": "lauro.jpg",
+    "publisher": "Dave Mallison Publications",
+    "cover": "2843944066.jpg",
+    "pages": "32",
+    "w": 306,
+    "h": 415,
+    "bg": "#b07d60",
+    "text": "#000",
+    "excerpt": "Joropo al Estilo del Arpa Criolla",
+    "sinopsis": "Antonio Lauro is one of the most famous composers to come from Venezuela. He has written many works for orchestra, piano, choir, harpsichord, and guitar. He is most well-known for his guitar works, this being his main instrument. The pieces represented in these guitar works are for players at a beginner-intermediate level, and in standard notation only. \"Seis por Derecho\" is one of the most typical folk dances of Venezuela. It is a variation of the Joropo, which is considered to be the most typical and representative expression of the Venezuelan musical tradition. \"Pasaje Aragüeño\" is a dance from the Aragua region of Venezuela."
+  },
+  {
+    "isbn": "2843944112",
+    "collection": 6,
+    "title": "Antonio Lauro: Works for Guitar, Vol. 6",
+    "author": "Antonio Lauro",
+    "author_photo": "lauro.jpg",
+    "publisher": "Dave Mallison Publications",
+    "cover": "2843944112.jpg",
+    "pages": "24",
+    "w": 306,
+    "h": 415,
+    "bg": "#d5f0cd",
+    "text": "#000",
+    "excerpt": "Romanza. Nocturno. Oriente",
+    "sinopsis": "Antonio Lauro is one of the most famous composers to come from Venezuela. He has written many works for orchestra, piano, choir, harpsichord, and guitar. He is most well-known for his guitar works, this being his main instrument. The pieces represented in these guitar works are for players at a beginner-intermediate level, and in standard notation only. The Nocturnal is an instrumental piece of music whose melody, rhythm, and harmony evoke the night or darkness."
+  },
+  {
+    "isbn": "2843944023",
+    "collection": 7,
+    "title": "Antonio Lauro: Works for Guitar, Vol. 7",
+    "author": "Antonio Lauro",
+    "author_photo": "lauro.jpg",
+    "publisher": "Dave Mallison Publications",
+    "cover": "2843944023.jpg",
+    "pages": "24",
+    "w": 306,
+    "h": 418,
+    "bg": "#d7545e",
+    "text": "#000",
+    "excerpt": "Estudio en forma de Valse Criollo",
+    "sinopsis": "Antonio Lauro is one of the most famous composers to come from Venezuela. He has written many works for orchestra, piano, choir, harpsichord, and guitar. He is most well-known for his guitar works, this being his main instrument. The pieces represented in these guitar works are for players at a beginner-intermediate level, and in standard notation only. Continuing the 19th Century tradition of other composers of Venezuelan waltzes, Lauro named many of his pieces after people or places. \"Nelly\" is a gaita, a dance from the region of Maracaibo in the west of Venezuela and is dedicated to a friend of Lauro."
   }
 ]
