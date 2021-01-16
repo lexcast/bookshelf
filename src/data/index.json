@@ -663,6 +663,21 @@
     "sinopsis": "A landmark volume in science writing by one of the great minds of our time, Stephen Hawking’s book explores such profound questions as: How did the universe begin—and what made its start possible? Does time always flow forward? Is the universe unending—or are there boundaries? Are there other dimensions in space? What will happen when it all ends? Told in language we all can understand, A Brief History of Time plunges into the exotic realms of black holes and quarks, of antimatter and “arrows of time,” of the big bang and a bigger God—where the possibilities are wondrous and unexpected. With exciting images and profound imagination, Stephen Hawking brings us closer to the ultimate secrets at the very heart of creation."
   },
   {
+    "isbn": "B0019CP2YM",
+    "title": "Historia del Templo del Buda Esmeralda",
+    "author": "Subhadradis Diskul",
+    "author_photo": "diskul.jpg",
+    "publisher": "Oficina de la Casa Real de Tailandia",
+    "cover": "B0019CP2YM.jpg",
+    "pages": "55",
+    "w": 306,
+    "h": 436,
+    "bg": "#cdaa72",
+    "text": "#000",
+    "excerpt": "De acuerdo con fuentes confiables, en 1434, en Chiengrai, al Norte de Tailandia, un rayo cayó sobre un \"chedhi\". Dentro se encontró una estatua de Buda recubierta de estuco.",
+    "sinopsis": ""
+  },
+  {
     "isbn": "1401263119",
     "title": "Batman: The Dark Knight Returns",
     "author": "Frank Miller",
