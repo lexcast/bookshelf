@@ -7,7 +7,7 @@
     "@craco/craco": "^6.0.0",
     "@tailwindcss/postcss7-compat": "^2.0.2",
     "autoprefixer": "^9",
-    "postcss": "^7",
+    "postcss": "^8",
     "react": "^17.0.1",
     "react-barcode": "^1.4.0",
     "react-dom": "^17.0.1",
