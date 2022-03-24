@@ -723,6 +723,21 @@
     "sinopsis": "A landmark volume in science writing by one of the great minds of our time, Stephen Hawking’s book explores such profound questions as: How did the universe begin—and what made its start possible? Does time always flow forward? Is the universe unending—or are there boundaries? Are there other dimensions in space? What will happen when it all ends? Told in language we all can understand, A Brief History of Time plunges into the exotic realms of black holes and quarks, of antimatter and “arrows of time,” of the big bang and a bigger God—where the possibilities are wondrous and unexpected. With exciting images and profound imagination, Stephen Hawking brings us closer to the ultimate secrets at the very heart of creation."
   },
   {
+    "isbn": "8441425019",
+    "title": "El origen de las especies",
+    "author": "Charles Darwin",
+    "author_photo": "darwin.jpg",
+    "publisher": "EDAF",
+    "cover": "8441425019.jpg",
+    "pages": "696",
+    "w": 306,
+    "h": 495,
+    "bg": "#db5810",
+    "text": "#fff",
+    "excerpt": "Este principio, por el cual toda ligera variación, si es útil, se conserva, lo he denominado yo con el término de selección natural.",
+    "sinopsis": "Las teorías y pruebas que Darwin expuso en 'El origen de las especies' son definitivas en la comprensión de la naturaleza y en el sustento de los estudios biológicos. Desde su publicación, los conceptos de evolución, adaptación y selección natural se han incorporado a todos los estudios científicos. La resonancia de la obra de Darwin ha impregnado todos los campos del saber, incluidos los de filosofía y religión."
+  },
+  {
     "isbn": "B0019CP2YM",
     "title": "Historia del Templo del Buda Esmeralda",
     "author": "Subhadradis Diskul",
