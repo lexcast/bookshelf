@@ -5,7 +5,7 @@
   "homepage": "https://lexcast.github.io/bookshelf/",
   "dependencies": {
     "@craco/craco": "^6.0.0",
-    "@tailwindcss/postcss7-compat": "^2.0.2",
+    "@tailwindcss/postcss7-compat": "npm:@tailwindcss/postcss7-compat",
     "autoprefixer": "^9",
     "postcss": "^7",
     "react": "^17.0.1",
