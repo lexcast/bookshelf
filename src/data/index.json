@@ -588,6 +588,21 @@
     "sinopsis": "«Al despertar Gregorio Samsa una mañana, tras un sueño intranquilo, se encontró en su cama convertido en un monstruoso insecto.» Tal es el abrupto comienzo, que nos sitúa de raíz bajo unas reglas distintas, de \" La metamorfosis \" , sin duda alguna la obra de Franz Kafka que ha alcanzado mayor celebridad. Escrito en 1912 y publicado en 1916, este relato es considerado una de las obras maestras del siglo xx por sus innegables rasgos precursores y el caudal de ideas e interpretaciones que desde siempre ha suscitado. Completan este volumen los relatos «Un artista del hambre» y «Un artista del trapecio»."
   },
   {
+    "isbn": "B09GKWQNV4",
+    "title": "El Principito",
+    "author": "Antoine de Saint-Exupéry",
+    "author_photo": "saintexupery.jpg",
+    "publisher": "Aegitas",
+    "cover": "B09GKWQNV4.jpg",
+    "pages": "67",
+    "w": 306,
+    "h": 459,
+    "bg": "#e6d096",
+    "text": "#000",
+    "excerpt": "No era más que un zorro semejante a cien mil otros. Pero yo lo hice mi amigo y ahora es único en el mundo.",
+    "sinopsis": "El principito (en francés: Le Petit Prince) es una novela corta y la obra más famosa del escritor y aviador francés Antoine de Saint-Exupéry (1900-1944).​​\nSaint-Exupéry, ganador de varios de los principales premios literarios de Francia y piloto militar al comienzo de la Segunda Guerra Mundial, escribió e ilustró el manuscrito mientras se encontraba exiliado en los Estados Unidos tras la batalla de Francia. Ahí tenía la misión personal de persuadir al gobierno de dicho país para que le declarara la guerra a la Alemania nazi. En medio de una crisis personal y con la salud cada vez más deteriorada, produjo en su exilio casi la mitad de los escritos por los que sería recordado; entre ellos, El principito, un relato considerado como un libro infantil por la forma en la que está escrito, pero que es en realidad una crítica de la adultez en el que se tratan temas profundos como el sentido de la vida, la soledad, la amistad, el amor y la pérdida."
+  },
+  {
     "isbn": "8401390788",
     "title": "El Diario de Anne Frank",
     "author": "Anne Frank",
