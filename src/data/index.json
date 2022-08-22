@@ -558,6 +558,21 @@
     "sinopsis": "El Arte de la Guerra es el mejor libro de estrategia de todos los tiempos. Inspiró a Napoleón, Maquiavelo, Mao Tse Tung y muchas más figuras históricas. Este libro, de dos mil quinientos años de antigüedad, es uno de los más importantes textos clásicos chinos, en el que, a pesar del tiempo transcurrido, ninguna de sus máximas ha quedado anticuada, ni hay un solo consejo que hoy no sea útil. Pero la obra del general Sun Tzu no es únicamente un libro de práctica militar, sino un tratado que enseña la estrategia suprema de aplicar con sabiduría el conocimiento de la naturaleza humana en los momentos de confrontación. No es, por tanto, un libro sobre la guerra; es una obra para comprender las raíces de un conflicto y buscar una solución. “La mejor victoria es vencer sin combatir”, nos dice Sun Tzu, “y ésa es la distinción entre le hombre prudente y el ignorante”."
   },
   {
+    "isbn": "B00D41E2TW",
+    "title": "Romeo y Julieta",
+    "author": "William Shakespeare",
+    "author_photo": "shakespeare.jpg",
+    "publisher": "Literanda",
+    "cover": "B00D41E2TW.jpg",
+    "pages": "96",
+    "w": 306,
+    "h": 424,
+    "bg": "#fefefe",
+    "text": "#000",
+    "excerpt": "¡Ah, Romeo, Romeo! ¿Por qué eres Romeo? Niega a tu padre y rechaza su nombre, o si no, júrame tu amor y ya nunca seré una Capuleto.",
+    "sinopsis": "Dos jóvenes enamorados desafían la oposición de sus familias, rivales entre sí, en una ya antológica historia de amor, marcada por la fatalidad y el destino."
+  },
+  {
     "isbn": "9700760839",
     "title": "Cumbres Borrascosas",
     "author": "Emily Brontë",
