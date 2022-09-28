@@ -157,6 +157,21 @@
     "sinopsis": "Como sabe cualquier fan de las historias de Harry Potter, las estanterías de la biblioteca de Hogwarts albergan toda clase de libros fascinantes. Es posible que hayas oído a ciertos estudiantes de Hogwarts hablar sobre tres libros en particular que puedes añadir a tu lista de lectura. Entre ellos, Quidditch a través de los tiempos.\nTal vez sueñas con atrapar la esquiva snitch dorada y oír el clamor ensordecedor de los ánimos en las gradas, como un tal Harry Potter hizo una vez. O tal vez, como Hermione Granger, tu ansia de conocimiento jamás se ve saciada. Ya seas un fan experimentado o acabes de descubrir este deporte, este libro de la biblioteca de Hogwarts será una memorable lectura.\nDesde su origen en el pantano Queerditch en el siglo once hasta convertirse en el sofisticado deporte que se juega hoy, descubre cómo es que «el quidditch aglutina a brujas y magos de toda condición, nos reúne para compartir momentos de regocijo, triunfo y (para aquellos que apoyan a los Chudley Cannons) desesperación», según el prólogo del profesor Albus Dumbledore."
   },
   {
+    "isbn": "B01F3ET2VU",
+    "title": "Los cuentos de Beedle el bardo",
+    "author": "J.K. Rowling",
+    "author_photo": "rowling.jpg",
+    "publisher": "Pottermore Publishing",
+    "cover": "B01F3ET2VU.jpg",
+    "pages": "79",
+    "w": 306,
+    "h": 461,
+    "bg": "#282C35",
+    "text": "#fff",
+    "excerpt": "Jamás ha existido hombre o mujer, mágico o no, que nunca haya sufrido ninguna clase de herida, ya sea física, mental o emocional. Sufrir es tan humano como respirar.",
+    "sinopsis": "Como sabe cualquier fan de las historias de Harry Potter, las estanterías de la biblioteca de Hogwarts albergan toda clase de libros fascinantes. Es posible que hayas oído a ciertos estudiantes de Hogwarts hablar sobre tres libros en particular que puedes añadir a tu lista de lectura. Entre ellos, Los cuentos de Beedle el Bardo.\nTan conocido entre los estudiantes de Hogwarts como lo es Cenicienta o la Bella Durmiente entre los niños muggle, las historias de Beedle son una colección de cuentos de hadas populares escritos para jóvenes brujas y magos. Así que, si te preguntas qué te aguarda... ¡te espera algo grandioso!\nTe partirás de la risa cuando leas el caos que desató el endiablado regalo de un padre a su hijo en El mago y el cazo saltarín.\nCon La fuente de la buena fortuna te embarcarás en una aventura por un jardín encantado junto con tres brujas y un caballero desafortunado.\nEn El corazón peludo del brujo conocerás a un joven brujo que le teme al amor y se rinde a la magia oscura para evitarlo a toda costa."
+  },
+  {
     "isbn": "8496284328",
     "title": "Eragon",
     "collection": 1,
