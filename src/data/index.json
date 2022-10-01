@@ -543,6 +543,21 @@
     "sinopsis": "Lees ese anuncio: una oferta de esa naturaleza no se hace todos los días. Lees y relees el aviso. Parece dirigido a ti, a nadie más: así comienza Aura, una de las novelas más embrujantes de la literatura mexicana, una lúcida y a la par alucinada exploración de esa zona del arte donde el horror engendra la hermosura, donde lo verdadero es lo imposible, donde el amor sacrifica la vida y la inmortalidad tiene un precio que algunos están dispuestos a pagar."
   },
   {
+    "isbn": "B07SN4FNWJ",
+    "title": "Pedro Páramo",
+    "author": "Juan Rulfo",
+    "author_photo": "rulfo.jpg",
+    "publisher": "RM Verlag",
+    "cover": "B07SN4FNWJ.jpg",
+    "pages": "92",
+    "w": 306,
+    "h": 477,
+    "bg": "#F1EAD1",
+    "text": "#000",
+    "excerpt": "Aquello está sobre las brasas de la tierra, en la mera boca del infierno. Con decirle que muchos de los que allí se mueren al llegar al infierno regresan por su cobija.",
+    "sinopsis": "\"Desconcertante, lista a inquietar a la crítica, está ya en los escaparates la primera novela de Juan Rulfo, Pedro Páramo, que transcurre en una serie de transposiciones oníricas, ahondando más allá de la muerte de sus personajes, que uno no sabe en qué momento son sueño, vida, fábula, verdad, pero a los que se les oye la voz al través de la perspicacia despiadada y certera de tan sin duda extraordinario escritor\". Con estas palabras iniciaba Edmundo Valdés la primera reseña de Pedro Páramo, aparecida el 30 de marzo de 1955 y conservada por Juan Rulfo entre sus papeles.\nDesde entonces el reconocimiento a esta obra maestra ha sido constante, hasta el punto que la encuesta del Instituto Nobel de Suecia, de 2002, dirigida a un centenar de escritores y estudiosos de todo el mundo, situó a Pedro Páramo entre las cien obras que constituyen el núcleo del patrimonio universal de la literatura."
+  },
+  {
     "isbn": "8420471836",
     "title": "Cien años de soledad",
     "author": "Gabriel García Márquez",
