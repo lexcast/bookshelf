@@ -1,7 +1,6 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  purge: ["./src/**/*.js", "./public/index.html"],
-  darkMode: false,
+  content: ["./src/**/*.js", "./public/index.html"],
   theme: { extend: { backgroundColor: { paper: "#f2eecb" } } },
-  variants: {},
   plugins: [],
 };
