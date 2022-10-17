@@ -1,20 +1,13 @@
 {
   "files": {
-    "main.css": "/bookshelf/static/css/main.5be4c4cb.chunk.css",
-    "main.js": "/bookshelf/static/js/main.652fd878.chunk.js",
-    "main.js.map": "/bookshelf/static/js/main.652fd878.chunk.js.map",
-    "runtime-main.js": "/bookshelf/static/js/runtime-main.569a0478.js",
-    "runtime-main.js.map": "/bookshelf/static/js/runtime-main.569a0478.js.map",
-    "static/js/2.9d7f86b6.chunk.js": "/bookshelf/static/js/2.9d7f86b6.chunk.js",
-    "static/js/2.9d7f86b6.chunk.js.map": "/bookshelf/static/js/2.9d7f86b6.chunk.js.map",
+    "main.css": "/bookshelf/static/css/main.be0cd12a.css",
+    "main.js": "/bookshelf/static/js/main.518c8a0f.js",
     "index.html": "/bookshelf/index.html",
-    "static/css/main.5be4c4cb.chunk.css.map": "/bookshelf/static/css/main.5be4c4cb.chunk.css.map",
-    "static/js/2.9d7f86b6.chunk.js.LICENSE.txt": "/bookshelf/static/js/2.9d7f86b6.chunk.js.LICENSE.txt"
+    "main.be0cd12a.css.map": "/bookshelf/static/css/main.be0cd12a.css.map",
+    "main.518c8a0f.js.map": "/bookshelf/static/js/main.518c8a0f.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.569a0478.js",
-    "static/js/2.9d7f86b6.chunk.js",
-    "static/css/main.5be4c4cb.chunk.css",
-    "static/js/main.652fd878.chunk.js"
+    "static/css/main.be0cd12a.css",
+    "static/js/main.518c8a0f.js"
   ]
 }
