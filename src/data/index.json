@@ -903,6 +903,21 @@
     "sinopsis": ""
   },
   {
+    "isbn": "8498207681",
+    "title": "Kandinsky",
+    "author": "Wassily Kandinsky",
+    "author_photo": "kandinsky.jpg",
+    "publisher": "Público",
+    "cover": "8498207681.jpg",
+    "pages": "60",
+    "w": 306,
+    "h": 304,
+    "bg": "#EAE9E7",
+    "text": "#000",
+    "excerpt": "El artista es la mano que, mediante una y otra tecla, hace vibrar adecuadamente el alma humana.",
+    "sinopsis": "Kandinsky (1866-1944) ha pasado a la historia como el creador de la pintura abstracta y el teórico de arte más importante del siglo XX. Autor de más de 2.000 obras, este prolífico pintor de origen ruso, nacionalizado sucesivamente alemán y francés, inició su carrera artística a los treinta años. Compensó su tardía vocación con el entusiasmo propio de los conversos, tratando de conseguir una pintura capaz de hacer vibrar el alma sin la necesidad de objetos reconocibles, sólo con la simple fuerza de los colores y la composición."
+  },
+  {
     "isbn": "1401263119",
     "title": "Batman: The Dark Knight Returns",
     "author": "Frank Miller",
