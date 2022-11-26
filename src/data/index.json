@@ -663,6 +663,21 @@
     "sinopsis": "Dos jóvenes enamorados desafían la oposición de sus familias, rivales entre sí, en una ya antológica historia de amor, marcada por la fatalidad y el destino."
   },
   {
+    "isbn": "1794475788",
+    "title": "Hamlet",
+    "author": "William Shakespeare",
+    "author_photo": "shakespeare.jpg",
+    "publisher": "e-artnow Ediciones",
+    "cover": "1794475788.jpg",
+    "pages": "122",
+    "w": 306,
+    "h": 469,
+    "bg": "#F50007",
+    "text": "#fff",
+    "excerpt": "Ser o no ser, ésa es la cuestión. ¿Qué es más elevado para el espíritu? ¿Sufrir los golpes y los dardos de la insultante fortuna o tomar armas contra un mar de calamidades, y haciéndoles frente para acabar con ellos?",
+    "sinopsis": "Este ebook presenta \"Hamlet\", con un sumario dinámico y detallado. Es una obra de Shakespeare, escrita y estrenada en torno a 1600-1601. En la tragedia de Shakespeare, el rey de Dinamarca ha sido asesinado por su hermano Claudio, que ha usurpado el trono y se ha casado, sin respetar las costumbres, con la viuda del muerto, Gertrudis. El espectro del padre aparece a Hamlet en la muralla del castillo de Elsinore, refiere las circunstancias del delito y pide venganza. Hamlet promete obedecer, pero su naturaleza melancólica le hace irresoluto y le obliga a diferir la acción; mientras tanto se finge loco para evitar la sospecha de que amenace la vida del rey. Se cree que ha turbado su mente el amor de Ofelia, hija del chambelán Polonio, a la que, habiéndola cortejado anteriormente, trata ahora con crueldad. El rey, decidido a hacer desaparecer a Hamlet, le envía a Inglaterra con Rosencrantz y Guildenstern, pero los piratas capturan a Hamlet y lo devuelven a Dinamarca. A su llegada encuentra que Ofelia, loca de dolor, se ha ahogado. El hermano de la muchacha, Laertes, ha vuelto para vengar la muerte de su padre Polonio."
+  },
+  {
     "isbn": "9700760839",
     "title": "Cumbres Borrascosas",
     "author": "Emily Brontë",
