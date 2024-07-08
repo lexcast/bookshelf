@@ -1466,7 +1466,7 @@
   {
     "isbn": "1728213746",
     "title": "I Love You Like No Otter",
-    "author": " Rose Rossner",
+    "author": "Rose Rossner",
     "publisher": "Sourcebooks Wonderland",
     "cover": "1728213746.jpg",
     "pages": "24",
@@ -1476,5 +1476,20 @@
     "text": "#000",
     "excerpt": "I love you like no otter. You truly are the best.",
     "sinopsis": "There's no better way to say \"I love you\" than with a sweet and heartfelt animal pun book! I Love You Like No Otter combines a warm message of love with beautifully illustrated animals families will love to read and share together. From baby shower gifts to bedtime read alouds all year long, this adorable board book is purrfect for anyone you love beary much!"
+  },
+  {
+    "isbn": "9681655370",
+    "title": "Gato Tiene Sueño",
+    "author": "Satoshi Kitamura",
+    "author_photo": "kitamura.jpg",
+    "publisher": "Fondo de Cultura Economica",
+    "cover": "9681655370.jpg",
+    "pages": "14",
+    "w": 306,
+    "h": 308,
+    "bg": "#fff",
+    "text": "#000",
+    "excerpt": "Gato tiene sueño. ¿En dónde puede dormir?",
+    "sinopsis": "Esta es una simpática y familiar historia donde el protagonista, un gato, lo único que quiere hacer es dormir. Recorre toda la casa, hasta que al final encuentra el lugar ideal., y por fin, se echa a dormir."
   }
 ]
