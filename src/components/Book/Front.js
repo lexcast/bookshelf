@@ -32,11 +32,13 @@ const Front = ({ book, state }) => {
         }}
       >
         <div className="flex-1 flex flex-col items-center justify-start">
-          <img
-            className="w-32 mb-4 border-4 border-white"
-            src={`${process.env.PUBLIC_URL}/images/authors/${book.author_photo}`}
-            alt={book.author}
-          />
+          {book.author_photo && (
+            <img
+              className="w-32 mb-4 border-4 border-white"
+              src={`${process.env.PUBLIC_URL}/images/authors/${book.author_photo}`}
+              alt={book.author}
+            />
+          )}
           <h1>{book.author}</h1>
         </div>
         <h3 className="text-xs font-extralight">{book.publisher}</h3>
