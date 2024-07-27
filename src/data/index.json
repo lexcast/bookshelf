@@ -1491,5 +1491,20 @@
     "text": "#000",
     "excerpt": "Gato tiene sueño. ¿En dónde puede dormir?",
     "sinopsis": "Esta es una simpática y familiar historia donde el protagonista, un gato, lo único que quiere hacer es dormir. Recorre toda la casa, hasta que al final encuentra el lugar ideal., y por fin, se echa a dormir."
+  },
+  {
+    "isbn": "9681655397",
+    "title": "Ardilla Tiene Hambre",
+    "author": "Satoshi Kitamura",
+    "author_photo": "kitamura.jpg",
+    "publisher": "Fondo de Cultura Economica",
+    "cover": "9681655397.jpg",
+    "pages": "14",
+    "w": 306,
+    "h": 305,
+    "bg": "#fff",
+    "text": "#000",
+    "excerpt": "Ahora Ardilla tiene hambre. Puede guardar la nuez en su barriga. Yom, yom.",
+    "sinopsis": "La ardilla, nada tonta, busca un escondite seguro para guardar su comida (una hermosa nuez), lo cual no es fácil. Sin embargo, después de mucho buscar, lo encuentra pero, como no lo logró tan rápido le dio hambre, el escondite también le sirvió de comedor."
   }
 ]
