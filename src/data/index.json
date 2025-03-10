@@ -633,6 +633,21 @@
     "sinopsis": "Los poemas de Bécquer están identificados con su personalidad, y existe una razón fundamental para hacer tal consideración: la vida del poeta está reflejada con un matiz imborrable en las características de las Rimas; todo en ellas es bruma, niebla, límite entre la realidad y la fantasía, renuncia, sacrificio, resignación. Las narraciones de este autor ofrecen misterio, fantasía desbordada, casi siempre amor. Bécquer es una figura emblemática del Romanticismo, movimiento que se alejó de las fórmulas para consagrar la sencillez y la sinceridad. En las creaciones de este escritor se encuentra un reflejo de sus características como pintor: color, luz, línea, forma. Su obra ha sido estudiada minuciosamente: la escritura de cada poema, el simbolismo que encierran las palabras, las bellas imágenes que constantemente se emplean; nada ha quedado por analizar, clasificar y tratar de comprender."
   },
   {
+    "isbn": "B07QJ9SN6Y",
+    "title": "La Odisea",
+    "author": "Homero",
+    "author_photo": "homero.jpg",
+    "publisher": "Biblioteca Nacional de España",
+    "cover": "B07QJ9SN6Y.jpg",
+    "pages": "564",
+    "w": 306,
+    "h": 408,
+    "bg": "#fff",
+    "text": "#000",
+    "excerpt": "La grandeza no consiste en recibir honores, sino en merecerlos.",
+    "sinopsis": "Esta edición digital en formato forma parte de un proyecto puesto en marcha por la Biblioteca Nacional de España junto con Redes encaminado a enriquecer la oferta de servicios de la Biblioteca Digital Hispánica y fomentar su acceso y utilización.\nEn el proceso de digitalización de documentos los impresos son en primer lugar digitalizados en forma de imagen, posteriormente el texto es extraído de manera automatizada gracias a la tecnología de reconocimiento óptico de caracteres (OCR).\nEl texto así obtenido ha sido aquí revisado, corregido y convertido a libro electrónico o publicación electrónica, formato abierto y estándar de libros digitales. Se intenta respetar en la mayor medida posible el texto original (por ejemplo, en cuanto a ortografía) pero pueden realizarse modificaciones con vistas a una mejor legibilidad y adaptación al nuevo formato."
+  },
+  {
     "isbn": "1773137255",
     "title": "El Arte de la Guerra",
     "author": "Sun Tzu",
@@ -1207,6 +1222,36 @@
     "text": "#fff",
     "excerpt": "Do you want to have sex? I think we should have sex. CASUAL sex.",
     "sinopsis": "It's finally here! Six years and almost one-thousand pages have all led to this epic finale! With six of Ramona's seven evil exes dispatched, it should be time for Scott Pilgrim to face Gideon Graves, the biggest and baddest of her former beaus. But didn't Ramona take off at the end of Book 5? Shouldn't that let Scott off the hook? Maybe it should, maybe it shouldn't, but one thing is for certain--all of this has been building to SCOTT PILGRIM'S FINEST HOUR!"
+  },
+  {
+    "isbn": "607528799X",
+    "title": "The Legend Of Zelda: Oracle Of Seasons / Oracle Of Ages",
+    "author": "Akira Himekawa",
+    "author_photo": "himekawa.jpg",
+    "publisher": "Panini Manga",
+    "cover": "607528799X.webp",
+    "pages": "404",
+    "w": 306,
+    "h": 435,
+    "bg": "#550100",
+    "text": "#fff",
+    "excerpt": "Debes encontrar el equilibrio entre las estaciones, Link.",
+    "sinopsis": "La Trifuerza transporta a Link, el héroe del tiempo, a la tierra de Holodrum, donde se encuentra con la hermosa bailarina Din, también conocida como el \"oráculo de las estaciones\". Pero poco después Link presencia cómo el malvado Onox la secuestra."
+  },
+  {
+    "isbn": "6075687327",
+    "title": "The Legend Of Zelda: A Link To The Past",
+    "author": "Shōtarō Ishinomori",
+    "author_photo": "ishinomori.webp",
+    "publisher": "Panini Manga",
+    "cover": "6075687327.jpg",
+    "pages": "196",
+    "w": 306,
+    "h": 429,
+    "bg": "#648cb2",
+    "text": "#fff",
+    "excerpt": "Maybe I am the legendary hero after all!",
+    "sinopsis": "Una vez más lo logró: ¡Shotaro Ishinomori nos lleva de nueva cuenta a rescatar a Zelda y a acompañar a Link en sus increíbles aventuras! Y por eso Panini trae para tiThe Legend of Zelda: A Linktothe Past, para ser testigos de que cualquier futuro es posible con un arduo esfuerzo. La calma se ha roto y el mal sellado por siglos está a punto de despertar, pero no es lo único, pues el héroe legendario que se presenta cada 100 años en Hyrule escuchará la voz que clama por ayuda,¡y acudirá sin demora a cumplir su destino!"
   },
   {
     "isbn": "1406313181",
