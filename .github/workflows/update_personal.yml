@@ -9,15 +9,10 @@ jobs:
     steps:
     - uses: actions/checkout@v4
       with:
-        ref: master
+        ref: personal
         fetch-depth: 0
-    - uses: actions/setup-node@v4
-      with:
-        node-version: '22'
     - uses: oleksiyrudenko/gha-git-credentials@v2
       with:
         token: '${{ secrets.GITHUB_TOKEN }}'
-    - run: git checkout -b personal
-    - run: git pull origin personal
-    - run: git rebase master
-    - run: git push origin personal -f
+    - run: git merge origin/master --no-edit
+    - run: git push origin personal
