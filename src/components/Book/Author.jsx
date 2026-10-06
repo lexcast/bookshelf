@@ -1,4 +1,5 @@
-const countryNames = new Intl.DisplayNames(["es"], { type: "region" });
+import { countryName } from "../../lib/books.js";
+
 const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, "");
 
 // "1927–2014" for authors who died, "1965" for living ones
@@ -11,7 +12,7 @@ const lifespan = ({ born, died }) => {
 
 const Author = ({ author, small }) => {
   const details = [
-    author.country && countryNames.of(author.country),
+    author.country && countryName(author.country),
     lifespan(author),
   ].filter(Boolean);
 
