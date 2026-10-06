@@ -1,22 +1,15 @@
-const Left = ({ book }) => {
-  if (!book) return null;
-
-  const { h, pages, bg, text, author, title, l_title, collection } = book;
-
-  const depthVal = pages / 10;
-  const halfDepthVal = depthVal / 2;
+const Left = ({ book, depth }) => {
+  const { h, bg, text, author, title, l_title, collection } = book;
 
   const height = `${h}px`;
-  const depth = `${depthVal}px`;
-  const halfDepth = `${halfDepthVal}px`;
 
   return (
     <div
       className="absolute block backface-hidden"
       style={{
-        width: depth,
+        width: `${depth}px`,
         height,
-        left: `-${halfDepth}`,
+        left: `-${depth / 2}px`,
         backgroundColor: bg,
         transform: "rotateY(90deg) rotateX(-180deg)",
       }}
@@ -25,9 +18,9 @@ const Left = ({ book }) => {
         className="text-xs flex items-center pl-10 overflow-hidden"
         style={{
           width: height,
-          height: depth,
+          height: `${depth}px`,
           color: text,
-          transformOrigin: halfDepth,
+          transformOrigin: `${depth / 2}px`,
           transform: "rotate(90deg)",
         }}
       >
@@ -39,9 +32,9 @@ const Left = ({ book }) => {
         <div
           className="text-base leading-none font-bold h-10 flex items-center justify-center overflow-hidden"
           style={{
-            width: depth,
+            width: `${depth}px`,
             color: text,
-            transform: `rotate(180deg) translateY(${depth})`,
+            transform: `rotate(180deg) translateY(${depth}px)`,
           }}
         >
           {collection}

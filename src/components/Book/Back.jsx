@@ -11,14 +11,12 @@ const toEan13 = (isbn = "") => {
   return `${base}${(10 - (sum % 10)) % 10}`;
 };
 
-const Back = ({ book }) => {
-  if (!book) return null;
-
-  const { w, h, pages, bg, text, title, author, sinopsis, isbn } = book;
+const Back = ({ book, depth }) => {
+  const { w, h, bg, text, title, author, sinopsis, isbn } = book;
 
   const width = `${w}px`;
   const height = `${h}px`;
-  const halfDepth = `${pages / 10 / 2}px`;
+  const halfDepth = `${depth / 2}px`;
 
   const ean = toEan13(isbn);
 

@@ -51,12 +51,12 @@ body {
 
 /* Custom Utilities */
 .backface-hidden {
+  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 
 .preserve-3d {
   transform-style: preserve-3d;
-  will-change: transform;
 }
 
 .t-transform {

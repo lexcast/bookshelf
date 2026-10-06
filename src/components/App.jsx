@@ -1,23 +1,16 @@
-import { useState, useMemo } from "react";
+import { useState } from "react";
 import Book from "./Book/index.jsx";
 import books from "../data/index.json";
 
 const CHUNK_SIZE = 20;
 
+const chunks = Array.from({ length: Math.ceil(books.length / CHUNK_SIZE) }, (_, i) =>
+  books.slice(i * CHUNK_SIZE, (i + 1) * CHUNK_SIZE),
+);
+
 const App = () => {
   const [selected, setSelected] = useState(null);
   const [chunk, setChunk] = useState(0);
-
-  const chunks = useMemo(() => {
-    return books.reduce((resultArray, item, index) => {
-      const chunkIndex = Math.floor(index / CHUNK_SIZE);
-      if (!resultArray[chunkIndex]) {
-        resultArray[chunkIndex] = [];
-      }
-      resultArray[chunkIndex].push(item);
-      return resultArray;
-    }, []);
-  }, []);
 
   const currentBooks = chunks[chunk] || [];
 
@@ -41,19 +34,10 @@ const App = () => {
       </div>
 
       <div
-        className="relative font-serif m-auto flex justify-center flex-col flex-wrap preserve-3d p-2 scale-60"
-        style={{
-          WebkitBackfaceVisibility: "hidden",
-          backfaceVisibility: "hidden",
-          transformStyle: "preserve-3d"
-        }}
+        className="relative font-serif m-auto flex justify-center flex-col flex-wrap preserve-3d backface-hidden p-2 scale-60"
       >
         <div
-          className="relative preserve-3d m-auto px-20 flex justify-center items-baseline"
-          style={{
-            isolation: "isolate",
-            willChange: "transform"
-          }}
+          className="relative preserve-3d isolate will-change-transform m-auto px-20 flex justify-center items-baseline"
         >
           {currentBooks.map((book) => (
             <Book

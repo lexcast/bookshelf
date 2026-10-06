@@ -12,7 +12,9 @@ Based on [this article](https://tympanus.net/codrops/2013/01/08/3d-book-showcase
 
 ## Install
 
-Just clone it or download the repository, and run `yarn install`.
+Just clone it or download the repository, and run `npm install`.
+
+The `master` branch only has a sample book. Keep your own collection (data and images) in a separate branch, like `personal`, which is the one that gets deployed.
 
 ## Add Book
 
@@ -29,7 +31,7 @@ This file has an array with each book in the following format:
     "author_photo": "rowling.jpg", // you need to add this file in `public/images/author`
     "publisher": "Salamandra",
     "cover": "8478884459.jpg", // you need to add this file in `public/images/covers`
-    "pages": "254",
+    "pages": 254, // also sets the spine thickness
     "w": 306, // width
     "h": 500, // height
     "bg": "#faf599", // background color
@@ -42,4 +44,7 @@ This file has an array with each book in the following format:
 
 ## Available Scripts
 
-This project is a Create React App, and it has all of its scripts.
+- `npm run dev`: start the development server
+- `npm run build`: build for production into `dist/`
+- `npm run preview`: serve the production build locally
+- `npm run lint`: run ESLint

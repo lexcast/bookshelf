@@ -1,11 +1,9 @@
-const Front = ({ book, state }) => {
-  if (!book) return null;
-
-  const { w, h, pages, bg, text, author, author_photo, publisher, cover, title } = book;
+const Front = ({ book, depth, state }) => {
+  const { w, h, bg, text, author, author_photo, publisher, cover, title } = book;
 
   const width = `${w}px`;
   const height = `${h}px`;
-  const halfDepth = `${pages / 10 / 2}px`;
+  const halfDepth = `${depth / 2}px`;
 
   const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, "");
 

@@ -7,8 +7,7 @@ import Bottom from "./Bottom.jsx";
 import Left from "./Left.jsx";
 import Right from "./Right.jsx";
 
-const Book = (props) => {
-  const { book, selected, setSelected } = props;
+const Book = ({ book, selected, setSelected }) => {
   const [state, setState] = useState("stored");
   const [prevSelected, setPrevSelected] = useState(selected);
 
@@ -28,8 +27,9 @@ const Book = (props) => {
     return () => clearTimeout(timerId);
   }, [state, selected]);
 
-  const width = `${book.pages / 10}px`;
-  const height = `${book.h}px`;
+  // Spine thickness: 1px for every 10 pages
+  const depth = Number(book.pages) / 10;
+  const faceProps = { book, depth };
 
   const onClick = () => {
     if (!selected) {
@@ -52,14 +52,14 @@ const Book = (props) => {
       className={`relative ml-px cursor-pointer select-none ${selected ? "z-40" : "hover:z-30 z-10"
         }`}
       style={{
-        width,
-        height,
+        width: `${depth}px`,
+        height: `${book.h}px`,
       }}
     >
       <div
         className="w-full h-full preserve-3d"
         style={{
-          transform: `translateZ(-${book.pages / 10 / 2}px)`,
+          transform: `translateZ(-${depth / 2}px)`,
         }}
       >
         <div
@@ -85,16 +85,16 @@ const Book = (props) => {
                       : "",
             }}
           >
-            <Left {...props} />
-            <Top {...props} />
+            <Left {...faceProps} />
+            <Top {...faceProps} />
 
             {state !== "stored" && (
               <>
-                <Front {...{ ...props, state }} />
-                <Page {...props} />
-                <Back {...props} />
-                <Right {...props} />
-                <Bottom {...props} />
+                <Front {...faceProps} state={state} />
+                <Page {...faceProps} />
+                <Back {...faceProps} />
+                <Right {...faceProps} />
+                <Bottom {...faceProps} />
               </>
             )}
           </div>
