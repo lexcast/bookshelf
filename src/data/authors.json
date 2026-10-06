@@ -3,5 +3,262 @@
     "name": "J.K. Rowling",
     "born": "1965-07-31",
     "country": "GB"
+  },
+  "christopher-paolini": {
+    "name": "Christopher Paolini",
+    "born": "1983-11-17",
+    "country": "US"
+  },
+  "jrr-tolkien": {
+    "name": "J.R.R. Tolkien",
+    "born": "1892-01-03",
+    "died": "1973-09-02",
+    "country": "GB"
+  },
+  "joseph-gelinek": {
+    "name": "Joseph Gelinek",
+    "born": "1958",
+    "country": "ES"
+  },
+  "dan-brown": {
+    "name": "Dan Brown",
+    "born": "1964-06-22",
+    "country": "US"
+  },
+  "paulo-coelho": {
+    "name": "Paulo Coelho",
+    "born": "1947-08-24",
+    "country": "BR"
+  },
+  "hourly-history": {
+    "name": "Hourly History"
+  },
+  "ignacio-trejo-fuentes": {
+    "name": "Ignacio Trejo Fuentes",
+    "country": "MX"
+  },
+  "federico-campbell": {
+    "name": "Federico Campbell",
+    "born": "1941-01-01",
+    "died": "2014-02-15",
+    "country": "MX"
+  },
+  "carlos-fuentes": {
+    "name": "Carlos Fuentes",
+    "born": "1928-11-11",
+    "died": "2012-05-15",
+    "country": "MX"
+  },
+  "juan-rulfo": {
+    "name": "Juan Rulfo",
+    "born": "1917-05-16",
+    "died": "1986-01-07",
+    "country": "MX"
+  },
+  "gabriel-garcia-marquez": {
+    "name": "Gabriel García Márquez",
+    "born": "1927-03-06",
+    "died": "2014-04-17",
+    "country": "CO"
+  },
+  "mario-vargas-llosa": {
+    "name": "Mario Vargas Llosa",
+    "born": "1936-03-28",
+    "died": "2025-04-13",
+    "country": "PE"
+  },
+  "homero": {
+    "name": "Homero",
+    "country": "GR"
+  },
+  "sun-tzu": {
+    "name": "Sun Tzu",
+    "country": "CN"
+  },
+  "william-shakespeare": {
+    "name": "William Shakespeare",
+    "born": "1564",
+    "died": "1616-04-23",
+    "country": "GB"
+  },
+  "emily-bronte": {
+    "name": "Emily Brontë",
+    "born": "1818-07-30",
+    "died": "1848-12-19",
+    "country": "GB"
+  },
+  "franz-kafka": {
+    "name": "Franz Kafka",
+    "born": "1883-07-03",
+    "died": "1924-06-03",
+    "country": "CZ"
+  },
+  "antoine-de-saint-exupery": {
+    "name": "Antoine de Saint-Exupéry",
+    "born": "1900-06-29",
+    "died": "1944-07-31",
+    "country": "FR"
+  },
+  "anne-frank": {
+    "name": "Anne Frank",
+    "born": "1929-06-12",
+    "died": "1945",
+    "country": "DE"
+  },
+  "adolf-hitler": {
+    "name": "Adolf Hitler",
+    "born": "1889-04-20",
+    "died": "1945-04-30",
+    "country": "AT"
+  },
+  "rius": {
+    "name": "Rius",
+    "born": "1934-06-20",
+    "died": "2017-08-08",
+    "country": "MX"
+  },
+  "edgar-allan-poe": {
+    "name": "Edgar Allan Poe",
+    "born": "1809-01-19",
+    "died": "1849-10-07",
+    "country": "US"
+  },
+  "aldous-huxley": {
+    "name": "Aldous Huxley",
+    "born": "1894-07-26",
+    "died": "1963-11-22",
+    "country": "GB"
+  },
+  "george-orwell": {
+    "name": "George Orwell",
+    "born": "1903-06-25",
+    "died": "1950-01-21",
+    "country": "GB"
+  },
+  "milan-kundera": {
+    "name": "Milan Kundera",
+    "born": "1929-04-01",
+    "died": "2023-07-11",
+    "country": "CZ"
+  },
+  "charles-bukowski": {
+    "name": "Charles Bukowski",
+    "born": "1920-08-16",
+    "died": "1994-03-09",
+    "country": "US"
+  },
+  "hermann-hesse": {
+    "name": "Hermann Hesse",
+    "born": "1877-07-02",
+    "died": "1962-08-09",
+    "country": "DE"
+  },
+  "stephen-hawking": {
+    "name": "Stephen Hawking",
+    "born": "1942-01-08",
+    "died": "2018-03-14",
+    "country": "GB"
+  },
+  "charles-darwin": {
+    "name": "Charles Darwin",
+    "born": "1809-02-12",
+    "died": "1882-04-19",
+    "country": "GB"
+  },
+  "oceano": {
+    "name": "Océano",
+    "country": "ES"
+  },
+  "jane-elizabeth-kraus": {
+    "name": "Jane Elizabeth Kraus",
+    "country": "BR"
+  },
+  "subhadradis-diskul": {
+    "name": "Subhadradis Diskul",
+    "born": "1923",
+    "died": "2003",
+    "country": "TH"
+  },
+  "wassily-kandinsky": {
+    "name": "Wassily Kandinsky",
+    "born": "1866-12-16",
+    "died": "1944-12-13",
+    "country": "RU"
+  },
+  "danielle-dick": {
+    "name": "Danielle Dick",
+    "country": "US"
+  },
+  "mavilo-calero-perez": {
+    "name": "Mavilo Calero Pérez",
+    "country": "PE"
+  },
+  "grupo-medios": {
+    "name": "Grupo Medios"
+  },
+  "alberto-lati": {
+    "name": "Alberto Lati",
+    "country": "MX"
+  },
+  "frank-miller": {
+    "name": "Frank Miller",
+    "born": "1957-01-27",
+    "country": "US"
+  },
+  "alan-moore": {
+    "name": "Alan Moore",
+    "born": "1953-11-18",
+    "country": "GB"
+  },
+  "grant-morrison": {
+    "name": "Grant Morrison",
+    "born": "1960-01-31",
+    "country": "GB"
+  },
+  "lee-bermejo": {
+    "name": "Lee Bermejo",
+    "country": "US"
+  },
+  "brian-azzarello": {
+    "name": "Brian Azzarello",
+    "country": "US"
+  },
+  "bryan-lee-omalley": {
+    "name": "Bryan Lee O'Malley",
+    "born": "1979-02-21",
+    "country": "CA"
+  },
+  "akira-himekawa": {
+    "name": "Akira Himekawa",
+    "country": "JP"
+  },
+  "shotaro-ishinomori": {
+    "name": "Shōtarō Ishinomori",
+    "born": "1938-01-25",
+    "died": "1998-01-28",
+    "country": "JP"
+  },
+  "martin-handford": {
+    "name": "Martin Handford",
+    "born": "1956-09-27",
+    "country": "GB"
+  },
+  "antonio-lauro": {
+    "name": "Antonio Lauro",
+    "born": "1917-08-03",
+    "died": "1986-04-18",
+    "country": "VE"
+  },
+  "adam-wathan": {
+    "name": "Adam Wathan",
+    "country": "CA"
+  },
+  "rose-rossner": {
+    "name": "Rose Rossner"
+  },
+  "satoshi-kitamura": {
+    "name": "Satoshi Kitamura",
+    "born": "1956",
+    "country": "JP"
   }
 }
