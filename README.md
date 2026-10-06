@@ -18,8 +18,7 @@ The `master` branch only has a sample book. Keep your own collection (data and i
 
 ## Add Book
 
-To add a book you need to specify it in `src/data/index.json`.
-This file has an array with each book in the following format:
+Books live in `src/data/books.json`, as an array with each book in the following format:
 
 ```js
 [
@@ -27,8 +26,8 @@ This file has an array with each book in the following format:
     "isbn": "8478884459", // has to be a isbn 10
     "title": "Harry Potter y la piedra filosofal",
     "collection": 1, // optional
-    "author": "J.K. Rowling",
-    "author_photo": "rowling.jpg", // you need to add this file in `public/images/author`
+    "authors": ["jk-rowling"], // ids from `src/data/authors.json`
+    "year": 1997, // year of the original publication, not of this edition
     "publisher": "Salamandra",
     "cover": "8478884459.jpg", // you need to add this file in `public/images/covers`
     "pages": 254, // also sets the spine thickness
@@ -41,6 +40,23 @@ This file has an array with each book in the following format:
   }
 ]
 ```
+
+## Add Author
+
+Authors live in `src/data/authors.json`, keyed by an id that books reference:
+
+```js
+{
+  "jk-rowling": {
+    "name": "J.K. Rowling",
+    "born": "1965-07-31", // optional, YYYY-MM-DD or just YYYY
+    // "died": "YYYY-MM-DD", optional, leave it out for living authors
+    "country": "GB" // optional, ISO 3166 code
+  }
+}
+```
+
+The photo is taken from `public/images/authors/<id>.jpg`, and it is skipped if that file doesn't exist.
 
 ## Available Scripts
 

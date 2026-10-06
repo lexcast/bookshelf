@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Book from "./Book/index.jsx";
-import books from "../data/index.json";
+import books from "../data/index.js";
 
 const CHUNK_SIZE = 20;
 

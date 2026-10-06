@@ -1,5 +1,7 @@
+import Author from "./Author.jsx";
+
 const Front = ({ book, depth, state }) => {
-  const { w, h, bg, text, author, author_photo, publisher, cover, title } = book;
+  const { w, h, bg, text, authors, publisher, cover, title } = book;
 
   const width = `${w}px`;
   const height = `${h}px`;
@@ -30,15 +32,10 @@ const Front = ({ book, depth, state }) => {
           transform: "rotate3d(0,1,0,-180deg)",
         }}
       >
-        <div className="flex-1 flex flex-col items-center justify-start">
-          {author_photo && (
-            <img
-              className="w-32 mb-4 border-4 border-white pointer-events-none"
-              src={`${baseUrl}/images/authors/${author_photo}`}
-              alt={author}
-            />
-          )}
-          <h1>{author}</h1>
+        <div className="flex-1 flex flex-wrap items-start justify-center gap-4">
+          {authors.map((author) => (
+            <Author key={author.id} author={author} small={authors.length > 1} />
+          ))}
         </div>
         <h3 className="text-xs font-extralight">{publisher}</h3>
       </div>
