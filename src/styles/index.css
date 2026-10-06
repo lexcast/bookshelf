@@ -1,7 +1,10 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
+@theme {
+  --color-paper: #f2eecb;
+}
+
+/* Base Styles */
 html {
   height: 100%;
   width: 100%;
@@ -46,24 +49,42 @@ body {
   height: 100%;
 }
 
+/* Custom Utilities */
 .backface-hidden {
   backface-visibility: hidden;
 }
 
 .preserve-3d {
   transform-style: preserve-3d;
+  will-change: transform;
 }
 
 .t-transform {
   transition: transform 0.5s;
 }
 
-.drop-cap:first-letter {
-  @apply float-left text-3xl leading-none align-middle mt-1 mr-1 font-bold;
+@utility drop-cap {
+  @apply first-letter:float-left 
+         first-letter:text-3xl 
+         first-letter:leading-none 
+         first-letter:align-middle 
+         first-letter:mt-1 
+         first-letter:mr-1 
+         first-letter:font-bold;
 }
 
 .hover-pull:hover {
   transform: rotateX(-15deg);
+}
+
+.hover-pull {
+  /* Previene el ghosting indicándole al navegador que limpie los píxeles en movimiento */
+  will-change: transform;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  
+  /* Evita que los bordes 3D queden dentados o dejen estelas al regresar */
+  outline: 1px solid transparent; 
 }
 
 .bg-wood {
