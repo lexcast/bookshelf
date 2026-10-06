@@ -6,14 +6,16 @@ const SCALE = 0.6;
 const SHELF_PADDING = 160;
 const BOOK_GAP = 1;
 
+const bookSize = (book) => Number(book.pages) / 10 + BOOK_GAP;
+
 // Fill each shelf from left to right and continue on the next one
-const packShelves = (books, width) => {
+const fillShelves = (books, width) => {
   const shelves = [];
   let shelf = [];
   let used = 0;
 
   for (const book of books) {
-    const size = Number(book.pages) / 10 + BOOK_GAP;
+    const size = bookSize(book);
     if (shelf.length && used + size > width) {
       shelves.push(shelf);
       shelf = [];
@@ -25,6 +27,23 @@ const packShelves = (books, width) => {
   if (shelf.length) shelves.push(shelf);
 
   return shelves;
+};
+
+// Use as many shelves as filling them needs, but spread the books evenly
+// across them: find the narrowest width that still fits in that many shelves
+const packShelves = (books, width) => {
+  const count = fillShelves(books, width).length;
+  if (count <= 1) return fillShelves(books, width);
+
+  let low = Math.max(...books.map(bookSize));
+  let high = width;
+  while (high - low > 1) {
+    const middle = (low + high) / 2;
+    if (fillShelves(books, middle).length <= count) high = middle;
+    else low = middle;
+  }
+
+  return fillShelves(books, high);
 };
 
 const Bookcase = ({ books, selected, setSelected }) => {
@@ -40,7 +59,7 @@ const Bookcase = ({ books, selected, setSelected }) => {
   const shelves = width ? packShelves(books, width / SCALE - SHELF_PADDING) : [];
 
   return (
-    <div ref={ref} className="w-full">
+    <div ref={ref} className="w-full px-2 md:px-12 lg:px-24 2xl:px-48">
       <div
         className="relative font-serif flex flex-col gap-24 preserve-3d backface-hidden"
         style={{ zoom: SCALE }}
