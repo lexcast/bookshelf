@@ -128,7 +128,7 @@
   },
   {
     "isbn": "8498382688",
-    "title": "Animales fantasticos y donde encontrarlos",
+    "title": "Animales fantásticos y dónde encontrarlos",
     "author": "J.K. Rowling",
     "author_photo": "rowling.jpg",
     "publisher": "Salamandra",
@@ -344,7 +344,7 @@
   },
   {
     "isbn": "8445000683",
-    "title": "El Señor De Los Anillos El Retorno Del Rey",
+    "title": "El Señor de los Anillos El Retorno del Rey",
     "collection": 3,
     "author": "J.R.R. Tolkien",
     "author_photo": "tolkien.jpg",
@@ -430,7 +430,7 @@
     "h": 464,
     "bg": "#c2b997",
     "text": "#fff",
-    "excerpt": "Cuando Quieres algo, todo el universo conspira para que realices tu deseo.",
+    "excerpt": "Cuando quieres algo, todo el universo conspira para que realices tu deseo.",
     "sinopsis": "Lo que comienza como un viaje en busca de fortuna se convierte en un descubrimiento de la riqueza interior. Ésta es la historia de Santiago, un joven pastor andaluz que viaja desde su tierra natal hacia el desierto egipcio en busca de un tesoro oculto en las pirámides. Nadie sabe lo que contiene, ni si Santiago será capaz de superar los obstáculos del camino. «Cuando escribí El Alquimista intentaba comprender la razón de la existencia. En lugar de hacer un tratado filosófico, decidí conversar con el niño que existía en mi alma. Para mi sorpresa, este niño vivía todavía en millones de personas en el mundo entero. Con este libro quiero compartir con mis lectores las preguntas que, justamente por no tener respuestas, hacen de la vida una gran aventura.». «Escucha tu corazón, él conoce todas las cosas»."
   },
   {
@@ -619,7 +619,7 @@
   },
   {
     "isbn": "9700773302",
-    "title": "La Iliáda",
+    "title": "La Ilíada",
     "author": "Homero",
     "author_photo": "homero.jpg",
     "publisher": "Porrúa",
