@@ -2,6 +2,7 @@
   "name": "Bookshelf",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "homepage": "https://lexcast.github.io/bookshelf/",
   "scripts": {
     "dev": "vite",
@@ -12,7 +13,7 @@
   "dependencies": {
     "@tailwindcss/vite": "^4.3.3",
     "react": "^19.2.8",
-    "react-barcode": "latest",
+    "react-barcode": "^1.6.1",
     "react-dom": "^19.2.8",
     "tailwindcss": "^4.3.3"
   },

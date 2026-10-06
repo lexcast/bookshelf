@@ -30,7 +30,10 @@ const App = () => {
             key={i}
             type="button"
             aria-label={`Ir al estante ${i + 1}`}
-            onClick={() => setChunk(i)}
+            onClick={() => {
+              setChunk(i);
+              setSelected(null);
+            }}
             className={`m-2 inline-block w-3 h-3 rounded-full opacity-50 cursor-pointer transition-colors ${chunk === i ? "bg-amber-600 opacity-100" : "bg-gray-800 hover:opacity-75"
               }`}
           />

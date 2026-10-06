@@ -8,25 +8,28 @@ import Left from "./Left.jsx";
 import Right from "./Right.jsx";
 
 const Book = (props) => {
-  const [state, setState] = useState("stored");
   const { book, selected, setSelected } = props;
+  const [state, setState] = useState("stored");
+  const [prevSelected, setPrevSelected] = useState(selected);
 
-  if (!book) return null;
+  // Turn the book sideways whenever it gets selected or deselected
+  if (selected !== prevSelected) {
+    setPrevSelected(selected);
+    setState("side");
+  }
+
+  // Once sideways, finish the movement: pull it out or put it back
+  useEffect(() => {
+    if (state !== "side") return;
+    const timerId = setTimeout(
+      () => setState(selected ? "front" : "stored"),
+      500,
+    );
+    return () => clearTimeout(timerId);
+  }, [state, selected]);
 
   const width = `${book.pages / 10}px`;
   const height = `${book.h}px`;
-
-  useEffect(() => {
-    let timerId;
-    if (selected) {
-      setState("side");
-      timerId = setTimeout(() => setState("front"), 500);
-    } else {
-      setState("side");
-      timerId = setTimeout(() => setState("stored"), 500);
-    }
-    return () => clearTimeout(timerId);
-  }, [selected]);
 
   const onClick = () => {
     if (!selected) {

@@ -1,5 +1,16 @@
 import Barcode from "react-barcode";
 
+// Convert an ISBN-10 to its EAN-13 (ISBN-13) form, null if it isn't an ISBN
+const toEan13 = (isbn = "") => {
+  const clean = isbn.replace(/[-\s]/g, "").toUpperCase();
+  if (/^97[89]\d{10}$/.test(clean)) return clean;
+  if (!/^\d{9}[\dX]$/.test(clean)) return null;
+
+  const base = `978${clean.slice(0, 9)}`;
+  const sum = [...base].reduce((acc, d, i) => acc + d * (i % 2 ? 3 : 1), 0);
+  return `${base}${(10 - (sum % 10)) % 10}`;
+};
+
 const Back = ({ book }) => {
   if (!book) return null;
 
@@ -9,7 +20,7 @@ const Back = ({ book }) => {
   const height = `${h}px`;
   const halfDepth = `${pages / 10 / 2}px`;
 
-  const cleanIsbn = isbn ? `0${isbn.replace(/\D/g, "0")}0` : "";
+  const ean = toEan13(isbn);
 
   return (
     <div
@@ -26,10 +37,10 @@ const Back = ({ book }) => {
       <h2 className="text-xs text-center mb-2">{author}</h2>
       <p className="whitespace-pre-line">{sinopsis}</p>
 
-      {cleanIsbn && (
+      {ean && (
         <div className="absolute bottom-0 right-0 mr-8 mb-3 scale-70 origin-bottom-right">
           <Barcode
-            value={cleanIsbn}
+            value={ean}
             format="EAN13"
             width={1}
             height={25}
