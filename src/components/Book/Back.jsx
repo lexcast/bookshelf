@@ -12,7 +12,7 @@ const toEan13 = (isbn = "") => {
 };
 
 const Back = ({ book, depth }) => {
-  const { w, h, bg, text, title, author, sinopsis, isbn } = book;
+  const { w, h, bg, text, title, authorNames, year, sinopsis, isbn } = book;
 
   const width = `${w}px`;
   const height = `${h}px`;
@@ -32,7 +32,10 @@ const Back = ({ book, depth }) => {
       }}
     >
       <h1 className="text-xs font-bold text-center">{title}</h1>
-      <h2 className="text-xs text-center mb-2">{author}</h2>
+      <h2 className="text-xs text-center mb-2">
+        {authorNames}
+        {year && ` · ${year}`}
+      </h2>
       <p className="whitespace-pre-line">{sinopsis}</p>
 
       {ean && (

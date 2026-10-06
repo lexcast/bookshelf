@@ -1,5 +1,5 @@
 const Left = ({ book, depth }) => {
-  const { h, bg, text, author, title, l_title, collection } = book;
+  const { h, bg, text, authorNames, title, l_title, collection } = book;
 
   const height = `${h}px`;
 
@@ -24,7 +24,7 @@ const Left = ({ book, depth }) => {
           transform: "rotate(90deg)",
         }}
       >
-        <span className="flex-none uppercase font-sans">{author}</span>
+        <span className="flex-none uppercase font-sans">{authorNames}</span>
         <span className="font-semibold ml-2">{l_title || title}</span>
       </div>
 
