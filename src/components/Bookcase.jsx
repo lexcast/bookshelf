@@ -5,6 +5,8 @@ const SCALE = 0.6;
 // Horizontal padding of each shelf (px-20) plus the 1px gap between books
 const SHELF_PADDING = 160;
 const BOOK_GAP = 1;
+// Time a book takes to go back on its shelf: turn sideways, then slide in
+const PUT_BACK_MS = 1000;
 
 const bookSize = (book) => Number(book.pages) / 10 + BOOK_GAP;
 
@@ -46,9 +48,19 @@ const packShelves = (books, width) => {
   return fillShelves(books, high);
 };
 
-const Bookcase = ({ books, selected, setSelected }) => {
+const Bookcase = ({ books, selected, view, onActivate }) => {
   const ref = useRef(null);
   const [width, setWidth] = useState(0);
+  // The open book's shelf stays on top until the book is back in place
+  const [lifted, setLifted] = useState(selected);
+
+  if (selected && selected !== lifted) setLifted(selected);
+
+  useEffect(() => {
+    if (selected) return;
+    const timerId = setTimeout(() => setLifted(null), PUT_BACK_MS);
+    return () => clearTimeout(timerId);
+  }, [selected]);
 
   useEffect(() => {
     const observer = new ResizeObserver(([entry]) => setWidth(entry.contentRect.width));
@@ -59,29 +71,37 @@ const Bookcase = ({ books, selected, setSelected }) => {
   const shelves = width ? packShelves(books, width / SCALE - SHELF_PADDING) : [];
 
   return (
-    <div ref={ref} className="w-full px-2 md:px-12 lg:px-24 2xl:px-48">
-      <div
-        className="relative font-serif flex flex-col gap-24 preserve-3d backface-hidden"
-        style={{ zoom: SCALE }}
-      >
-        {shelves.map((shelf, i) => (
-          <div key={i} className="preserve-3d">
-            <div className="relative preserve-3d isolate will-change-transform px-20 flex justify-center items-baseline">
-              {shelf.map((book) => (
-                <Book
-                  key={book.isbn}
-                  book={book}
-                  selected={selected === book.isbn}
-                  setSelected={setSelected}
-                />
-              ))}
-            </div>
+    <div ref={ref} className="relative z-10 w-full px-2 md:px-12 lg:px-24 2xl:px-48">
+      <div className="relative font-serif flex flex-col gap-24" style={{ zoom: SCALE }}>
+        {shelves.map((shelf, i) => {
+          // Each shelf is flattened, so they stack in page order; lift the one
+          // holding the open book, and its books over the plank, so nothing
+          // painted later covers the book. A book tilted on hover also comes
+          // out over the plank
+          const open = shelf.some((book) => book.isbn === lifted);
+          return (
+            <div key={i} className={`relative ${open ? "z-20" : ""}`}>
+              <div
+                className={`relative preserve-3d isolate will-change-transform shelf-row px-20 flex justify-center items-baseline ${open ? "z-10" : ""}`}
+              >
+                {shelf.map((book) => (
+                  <Book
+                    key={book.isbn}
+                    book={book}
+                    selected={selected === book.isbn}
+                    dimmed={selected && selected !== book.isbn}
+                    view={view}
+                    onActivate={onActivate}
+                  />
+                ))}
+              </div>
 
-            <div className="h-3 bg-wood preserve-3d -translate-z-px">
-              <div className="h-64 bg-wood preserve-3d -rotate-x-90 origin-top" />
+              <div className={`h-6 bg-wood shelf-edge dimmable preserve-3d -translate-z-px ${selected ? "dimmed" : ""}`}>
+                <div className="h-64 bg-wood preserve-3d -rotate-x-90 origin-top" />
+              </div>
             </div>
-          </div>
-        ))}
+          );
+        })}
       </div>
     </div>
   );

@@ -15,7 +15,7 @@ const Left = ({ book, depth }) => {
       }}
     >
       <div
-        className="text-xs flex items-center pl-10 overflow-hidden"
+        className={`${depth < 24 ? "text-xs" : "text-sm"} leading-none flex items-center gap-2 pl-10 pr-4 overflow-hidden`}
         style={{
           width: height,
           height: `${depth}px`,
@@ -24,9 +24,11 @@ const Left = ({ book, depth }) => {
           transform: "rotate(90deg)",
         }}
       >
-        <span className="flex-none uppercase font-sans">{authorNames}</span>
-        <span className="font-semibold ml-2">{l_title || title}</span>
+        <span className="flex-none uppercase font-sans text-[0.8em] tracking-wider opacity-85">{authorNames}</span>
+        <span className="font-semibold truncate">{l_title || title}</span>
       </div>
+
+      <div className="absolute inset-0 spine-sheen pointer-events-none" />
 
       {collection && (
         <div

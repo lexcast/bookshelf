@@ -1,6 +1,6 @@
 const Bottom = ({ book, depth }) => (
   <div
-    className="absolute block backface-hidden bg-paper"
+    className="absolute block backface-hidden page-edge-h"
     style={{
       width: `${book.w - 5}px`,
       height: `${depth}px`,

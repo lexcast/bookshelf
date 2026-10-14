@@ -22,7 +22,7 @@ const Back = ({ book, depth }) => {
 
   return (
     <div
-      className="absolute block overflow-hidden p-10 text-justify text-[0.6rem] rounded-l-[3px]"
+      className="book-shadow absolute block overflow-hidden p-10 text-justify text-[0.6rem] leading-snug rounded-l-[3px]"
       style={{
         width,
         height,
@@ -31,8 +31,8 @@ const Back = ({ book, depth }) => {
         transform: `rotate3d(0,1,0,-180deg) translate3d(0,0,${halfDepth})`,
       }}
     >
-      <h1 className="text-xs font-bold text-center">{title}</h1>
-      <h2 className="text-xs text-center mb-2">
+      <h1 className="text-sm font-bold text-center">{title}</h1>
+      <h2 className="text-xs text-center opacity-80 mb-3">
         {authorNames}
         {year && ` · ${year}`}
       </h2>

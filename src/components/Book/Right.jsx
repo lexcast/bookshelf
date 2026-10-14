@@ -1,6 +1,6 @@
 const Right = ({ book, depth }) => (
   <div
-    className="absolute block backface-hidden bg-paper top-[5px]"
+    className="absolute block backface-hidden page-edge-v top-[5px]"
     style={{
       width: `${depth}px`,
       height: `${book.h - 10}px`,
