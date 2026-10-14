@@ -9,8 +9,14 @@
       name="description"
       content="Visualize your virtual library"
     />
-    <script type="module" crossorigin src="/bookshelf/assets/index-CJDZYmUM.js"></script>
-    <link rel="stylesheet" crossorigin href="/bookshelf/assets/index-a_PapW-X.css">
+    <script>
+      // Apply the saved or system theme before the first paint to avoid a flash
+      const saved = localStorage.getItem("theme");
+      const dark = saved ? saved === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
+      document.documentElement.dataset.theme = dark ? "dark" : "light";
+    </script>
+    <script type="module" crossorigin src="/bookshelf/assets/index-BkmHnS5e.js"></script>
+    <link rel="stylesheet" crossorigin href="/bookshelf/assets/index-CgSqaSg3.css">
   </head>
   <body>
     <div id="root"></div>
