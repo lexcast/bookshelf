@@ -1,13 +1,12 @@
 import Author from "./Author.jsx";
+import { assetUrl } from "../../lib/assets.js";
 
-const Front = ({ book, depth, state }) => {
+const Front = ({ book, depth, open }) => {
   const { w, h, bg, text, authors, publisher, cover, title } = book;
 
   const width = `${w}px`;
   const height = `${h}px`;
   const halfDepth = `${depth / 2}px`;
-
-  const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, "");
 
   return (
     <div
@@ -17,7 +16,7 @@ const Front = ({ book, depth, state }) => {
         height,
         transformOrigin: "0% 50%",
         transform:
-          state === "inside"
+          open
             ? `translate3d(0,0,${halfDepth}) rotate3d(0,1,0,-160deg)`
             : `translate3d(0,0,${halfDepth})`,
       }}
@@ -41,7 +40,7 @@ const Front = ({ book, depth, state }) => {
       </div>
 
       <div
-        className="absolute block backface-hidden preserve-3d z-10 rounded-r-[3px]"
+        className="book-shadow absolute block backface-hidden preserve-3d z-10 rounded-r-[3px]"
         style={{
           width,
           height,
@@ -51,9 +50,10 @@ const Front = ({ book, depth, state }) => {
         <img
           className="backface-hidden preserve-3d rounded-r-[3px] pointer-events-none"
           style={{ width, height }}
-          src={`${baseUrl}/images/covers/${cover}`}
+          src={assetUrl(`images/covers/${cover}`)}
           alt={title}
         />
+        <div className="absolute inset-0 rounded-r-[3px] cover-sheen" />
         <div className="absolute top-0 bottom-0 left-[10px] w-[3px] bg-black/5" />
       </div>
 
